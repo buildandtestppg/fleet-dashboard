@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🫧 Bubbles Fleet Command — Live</title>
+<style>
+:root {
+  --bg: #0a0e17; --card: #111827; --border: #1f2937;
+  --accent: #7c3aed; --accent2: #ec4899; --green: #10b981;
+  --red: #ef4444; --yellow: #f59e0b; --blue: #3b82f6;
+  --cyan: #06b6d4; --text: #e5e7eb; --muted: #6b7280;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'SF Mono','Monaco','Cascadia Code','Fira Code',monospace;
+  background: var(--bg); color: var(--text); line-height: 1.6;
+  overflow-x: hidden;
+}
+.container { max-width: 1440px; margin: 0 auto; padding: 20px; }
+
+/* Header */
+.hero {
+  background: linear-gradient(135deg, #0f0c29 0%, #1a0b2e 50%, #240046 100%);
+  border-bottom: 1px solid var(--border); padding: 30px 0; text-align: center;
+  position: relative;
+}
+.hero::after {
+  content:''; position:absolute; bottom:-2px; left:0; right:0; height:2px;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), var(--cyan), transparent);
+}
+.hero h1 { font-size: 2em; font-weight: 800; letter-spacing: -1px; }
+.hero .subtitle { color: var(--muted); font-size: 1em; margin-top: 6px; }
+.hero .badge-row { display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:10px; }
+.hero .badge {
+  display:inline-block; padding:3px 12px; border-radius:16px;
+  font-size:0.75em; font-weight:700;
+}
+.badge.purple { background: linear-gradient(90deg,var(--accent),var(--accent2)); }
+.badge.blue { background: linear-gradient(90deg,var(--blue),var(--cyan)); }
+.badge.green { background: linear-gradient(90deg,var(--green),#34d399); }
+.badge.red { background: linear-gradient(90deg,var(--red),#f87171); }
+.hero .timestamp { color:var(--muted); font-size:0.7em; margin-top:8px; }
+.live-dot {
+  display:inline-block; width:8px; height:8px; border-radius:50%;
+  background:var(--green); margin-right:4px;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+/* Stats Grid */
+.stats-grid {
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr));
+  gap:10px; margin:20px 0;
+}
+.stat {
+  background:var(--card); border:1px solid var(--border); border-radius:10px;
+  padding:14px; text-align:center; transition:transform 0.15s;
+}
+.stat:hover { transform:translateY(-2px); border-color:var(--accent); }
+.stat .value { font-size:1.6em; font-weight:800; }
+.stat .label { color:var(--muted); font-size:0.7em; text-transform:uppercase; letter-spacing:1px; }
+.stat .value.green { color:var(--green); }
+.stat .value.red { color:var(--red); }
+.stat .value.yellow { color:var(--yellow); }
+.stat .value.cyan { color:var(--cyan); }
+
+/* Sections */
+.section { margin:28px 0; }
+.section-title {
+  font-size:1.1em; font-weight:700; margin-bottom:12px; padding-bottom:6px;
+  border-bottom:1px solid var(--border); display:flex; align-items:center; gap:6px;
+}
+
+/* Cron Grid */
+.cron-grid {
+  display:grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap:8px;
+}
+.cron-card {
+  background:var(--card); border:1px solid var(--border); border-radius:8px;
+  padding:10px 12px; font-size:0.85em; transition:border-color 0.15s;
+}
+.cron-card:hover { border-color:var(--accent); }
+.cron-card .name { font-weight:700; margin-bottom:3px; }
+.cron-card .meta { color:var(--muted); font-size:0.85em; }
+.status-dot {
+  display:inline-block; width:7px; height:7px; border-radius:50%;
+  margin-right:4px; vertical-align:middle;
+}
+.status-ok { background:var(--green); box-shadow:0 0 4px var(--green); }
+.status-error { background:var(--red); box-shadow:0 0 4px var(--red); }
+.status-paused { background:var(--yellow); }
+.status-tripped { background:var(--red); animation: pulse 1s ease-in-out infinite; }
+.status-disabled { background:var(--muted); }
+.model-tag {
+  display:inline-block; background:rgba(124,58,237,0.15); color:var(--accent);
+  padding:1px 6px; border-radius:4px; font-size:0.8em; margin-top:3px;
+}
+.model-tag.cheap { background:rgba(59,130,246,0.15); color:var(--blue); }
+.model-tag.strong { background:rgba(236,72,153,0.15); color:var(--accent2); }
+.model-tag.script { background:rgba(6,182,212,0.15); color:var(--cyan); }
+
+/* Tables */
+.data-table {
+  width:100%; border-collapse:collapse; background:var(--card);
+  border-radius:8px; overflow:hidden; font-size:0.85em;
+}
+.data-table th {
+  background:rgba(124,58,237,0.1); padding:8px 10px; text-align:left;
+  font-weight:600; font-size:0.8em; text-transform:uppercase; letter-spacing:0.5px;
+}
+.data-table td { padding:7px 10px; border-top:1px solid var(--border); }
+.data-table tr:hover td { background:rgba(255,255,255,0.02); }
+.data-table .old { color:var(--red); text-decoration:line-through; opacity:0.6; }
+.data-table .new { color:var(--green); font-weight:600; }
+
+/* Weight Bars */
+.weight-bar-container { margin:6px 0; }
+.weight-bar-header { display:flex; justify-content:space-between; font-size:0.85em; margin-bottom:3px; }
+.weight-bar-track {
+  height:8px; background:rgba(255,255,255,0.05); border-radius:4px; overflow:hidden;
+}
+.weight-bar-fill {
+  height:100%; border-radius:4px; transition:width 0.5s ease;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+}
+.weight-bar-fill.good { background: linear-gradient(90deg, var(--green), #34d399); }
+.weight-bar-fill.warn { background: linear-gradient(90deg, var(--yellow), #fbbf24); }
+.weight-bar-fill.bad { background: linear-gradient(90deg, var(--red), #f87171); }
+
+/* Cost chart */
+.cost-bar {
+  display:flex; align-items:flex-end; gap:4px; height:100px; padding:10px 0;
+}
+.cost-bar-item {
+  flex:1; background:linear-gradient(to top, var(--accent), var(--accent2));
+  border-radius:3px 3px 0 0; min-width:20px; transition:height 0.5s ease;
+  position:relative; cursor:pointer;
+}
+.cost-bar-item:hover { opacity:0.8; }
+.cost-bar-item .tooltip {
+  display:none; position:absolute; top:-30px; left:50%; transform:translateX(-50%);
+  background:var(--card); border:1px solid var(--border); border-radius:4px;
+  padding:3px 6px; font-size:0.7em; white-space:nowrap; z-index:10;
+}
+.cost-bar-item:hover .tooltip { display:block; }
+
+/* Harness cards */
+.harness-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:8px;
+}
+.harness-card {
+  background:var(--card); border:1px solid var(--border); border-radius:8px;
+  padding:10px 12px; font-size:0.85em;
+}
+.harness-card .hname { font-weight:700; margin-bottom:3px; }
+.harness-card .hdesc { color:var(--muted); font-size:0.85em; }
+.h-status {
+  display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.75em;
+  margin-top:4px; font-weight:600;
+}
+.h-status.ok { background:rgba(16,185,129,0.15); color:var(--green); }
+.h-status.missing { background:rgba(239,68,68,0.15); color:var(--red); }
+
+/* Equity chart placeholder */
+.equity-chart {
+  width:100%; height:120px; background:var(--card); border:1px solid var(--border);
+  border-radius:8px; overflow:hidden; position:relative;
+}
+.equity-chart canvas { width:100%; height:100%; }
+
+/* Circuit breaker alerts */
+.alert-card {
+  background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.3);
+  border-radius:8px; padding:10px 12px; margin:6px 0; font-size:0.85em;
+}
+.alert-card .alert-title { color:var(--red); font-weight:700; }
+
+/* Refresh button */
+.refresh-btn {
+  background:var(--card); border:1px solid var(--border); color:var(--text);
+  padding:6px 14px; border-radius:6px; cursor:pointer; font-family:inherit;
+  font-size:0.8em; transition:all 0.15s;
+}
+.refresh-btn:hover { border-color:var(--accent); background:rgba(124,58,237,0.1); }
+
+/* Error panel */
+.error-panel {
+  background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.3);
+  border-radius:10px; padding:16px; margin:20px 0; text-align:center;
+}
+
+footer {
+  text-align:center; padding:20px; color:var(--muted); font-size:0.75em;
+  border-top:1px solid var(--border); margin-top:30px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>🫧 Bubbles Fleet Command</h1>
+    <div class="subtitle">Live Fleet Operations Dashboard</div>
+    <div class="badge-row">
+      <span class="badge purple" id="badge-jobs">—</span>
+      <span class="badge blue" id="badge-models">—</span>
+      <span class="badge green" id="badge-health">—</span>
+      <span class="badge red" id="badge-tripped" style="display:none">TRIPPED</span>
+    </div>
+    <div class="timestamp">
+      <span class="live-dot"></span>
+      Live · Last updated: <span id="collected-at">loading...</span>
+      &nbsp;<button class="refresh-btn" onclick="loadData()">↻ Refresh</button>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-grid" id="stats-grid">
+    <div class="stat"><div class="value" id="s-total">—</div><div class="label">Total Jobs</div></div>
+    <div class="stat"><div class="value green" id="s-active">—</div><div class="label">Active</div></div>
+    <div class="stat"><div class="value green" id="s-healthy">—</div><div class="label">Healthy</div></div>
+    <div class="stat"><div class="value red" id="s-errored">—</div><div class="label">Errored</div></div>
+    <div class="stat"><div class="value red" id="s-tripped">—</div><div class="label">Tripped</div></div>
+    <div class="stat"><div class="value cyan" id="s-cost">—</div><div class="label">Est. Cost</div></div>
+    <div class="stat"><div class="value" id="s-harness">—</div><div class="label">Harness Tools</div></div>
+    <div class="stat"><div class="value" id="s-traces">—</div><div class="label">Traces</div></div>
+  </div>
+
+  <!-- Circuit Breaker Alerts -->
+  <div id="cb-alerts"></div>
+
+  <!-- Cron Board -->
+  <div class="section">
+    <div class="section-title">⚙️ Fleet Cron Board</div>
+    <div class="cron-grid" id="cron-board"></div>
+  </div>
+
+  <!-- Cost Breakdown -->
+  <div class="section">
+    <div class="section-title">💰 Cost Tracking</div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+      <div>
+        <div style="font-size:0.85em; color:var(--muted); margin-bottom:8px;">Daily Cost (7d)</div>
+        <div class="cost-bar" id="cost-chart"></div>
+      </div>
+      <div>
+        <div style="font-size:0.85em; color:var(--muted); margin-bottom:8px;">Top Jobs by Cost</div>
+        <table class="data-table" id="cost-table">
+          <thead><tr><th>Job</th><th>Model</th><th>Runs</th><th>Cost</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Signal Weights -->
+  <div class="section">
+    <div class="section-title">⚖️ Signal Weights</div>
+    <div id="signal-weights"></div>
+  </div>
+
+  <!-- Trading -->
+  <div class="section">
+    <div class="section-title">📈 Paper Trading</div>
+    <div id="trading-panel"></div>
+  </div>
+
+  <!-- Harness Tools -->
+  <div class="section">
+    <div class="section-title">🛡️ Harness Engineering</div>
+    <div class="harness-grid" id="harness-grid"></div>
+  </div>
+
+  <!-- Traces -->
+  <div class="section">
+    <div class="section-title">📝 Recent Traces</div>
+    <div id="traces-panel"></div>
+  </div>
+</div>
+
+<footer>
+  Built by Bubbles 🫧 · Hermes Agent · Fleet Command v4.0 Live · <span id="footer-ts"></span>
+</footer>
+
+<script>
+const DATA_URL = './dashboard_data.json';
+const REFRESH_MS = 5 * 60 * 1000; // 5 min
+
+function fmtModel(model, provider, noAgent) {
+  if (!model && noAgent) return '<span class="model-tag script">script-only</span>';
+  if (!model) return '<span class="model-tag">—</span>';
+  const m = model.toLowerCase();
+  if (m.includes('kimi')) return '<span class="model-tag strong">' + model + '</span>';
+  if (m.includes('deepseek')) return '<span class="model-tag strong">' + model + '</span>';
+  if (m.includes('turbo')) return '<span class="model-tag cheap">' + model + '</span>';
+  return '<span class="model-tag">' + model + '</span>';
+}
+
+function fmtStatus(job) {
+  if (job.paused) return '<span class="status-dot status-paused"></span>';
+  if (job.last_status === 'ok') return '<span class="status-dot status-ok"></span>';
+  if (job.last_status) return '<span class="status-dot status-error"></span>';
+  return '<span class="status-dot status-disabled"></span>';
+}
+
+function fmtChannel(deliver) {
+  if (!deliver || deliver === 'local') return 'local';
+  if (deliver.startsWith('discord:')) {
+    const parts = deliver.split(':');
+    if (parts.length > 2) return '#' + parts.slice(2).join(':').substring(0, 18);
+    return '#channel';
+  }
+  return deliver.substring(0, 20);
+}
+
+function fmtTime(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    const now = new Date();
+    const diff = now - d;
+    if (diff < 60000) return 'just now';
+    if (diff < 3600000) return Math.floor(diff/60000) + 'm ago';
+    if (diff < 86400000) return Math.floor(diff/3600000) + 'h ago';
+    return d.toLocaleDateString('en-SG', {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'});
+  } catch { return iso; }
+}
+
+function renderStats(s) {
+  document.getElementById('s-total').textContent = s.total_jobs;
+  document.getElementById('s-active').textContent = s.active_jobs;
+  document.getElementById('s-healthy').textContent = s.healthy_jobs;
+  document.getElementById('s-errored').textContent = s.errored_jobs;
+  document.getElementById('s-tripped').textContent = s.tripped_jobs;
+  document.getElementById('s-cost').textContent = '$' + s.total_cost_estimate.toFixed(4);
+  document.getElementById('s-harness').textContent = s.harness_tools;
+  document.getElementById('s-traces').textContent = s.traces_total;
+
+  document.getElementById('badge-jobs').textContent = s.active_jobs + '/' + s.total_jobs + ' jobs';
+  document.getElementById('badge-models').textContent = 'glm-5-turbo + Kimi K2.7';
+  document.getElementById('badge-health').textContent = s.healthy_jobs === s.active_jobs ? 'All Healthy' : s.errored_jobs + ' errors';
+
+  const tripBadge = document.getElementById('badge-tripped');
+  tripBadge.style.display = s.tripped_jobs > 0 ? 'inline-block' : 'none';
+  if (s.tripped_jobs > 0) tripBadge.textContent = s.tripped_jobs + ' TRIPPED';
+}
+
+function renderCB(cb) {
+  const el = document.getElementById('cb-alerts');
+  if (!cb.tripped.length) { el.innerHTML = ''; return; }
+  el.innerHTML = cb.tripped.map(t => `
+    <div class="alert-card">
+      <div class="alert-title">🚨 Circuit Breaker: ${esc(t.job_name)}</div>
+      <div style="color:var(--muted)">
+        ${t.failure_count} consecutive failures · Tripped: ${fmtTime(t.tripped_at)} · 
+        Cooldown until: ${fmtTime(t.cooldown_until)}
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderCron(jobs) {
+  // Sort: tripped/error first, then alphabetical
+  const sorted = [...jobs].sort((a,b) => {
+    if (a.paused !== b.paused) return a.paused ? 1 : -1;
+    if (a.last_status === 'ok' && b.last_status !== 'ok') return 1;
+    if (a.last_status !== 'ok' && b.last_status === 'ok') return -1;
+    return a.name.localeCompare(b.name);
+  });
+
+  document.getElementById('cron-board').innerHTML = sorted.map(j => `
+    <div class="cron-card" ${j.paused ? 'style="opacity:0.5"' : ''}>
+      <div>${fmtStatus(j)} <span class="name">${esc(j.name)}</span></div>
+      <div class="meta">
+        ${esc(j.frequency || j.schedule_display || '?')} · ${fmtChannel(j.deliver)}
+        ${j.output_files ? ' · ' + j.output_files + ' runs' : ''}
+        ${j.last_run ? ' · last: ' + fmtTime(j.last_run) : ''}
+      </div>
+      ${fmtModel(j.model, j.provider, j.no_agent)}
+    </div>
+  `).join('');
+}
+
+function renderCost(costs) {
+  // Daily bar chart
+  const chart = document.getElementById('cost-chart');
+  const daily = costs.daily || [];
+  const maxCost = Math.max(...daily.map(d => d.cost), 0.001);
+  chart.innerHTML = daily.reverse().map(d => {
+    const h = Math.max(4, (d.cost / maxCost) * 80);
+    return `<div class="cost-bar-item" style="height:${h}px">
+      <div class="tooltip">${d.date}: $${d.cost.toFixed(4)} (${d.runs} runs)</div>
+    </div>`;
+  }).join('') || '<div style="color:var(--muted);font-size:0.8em;padding:20px;">No cost data yet</div>';
+
+  // Table
+  const tbody = document.querySelector('#cost-table tbody');
+  tbody.innerHTML = (costs.by_job || []).slice(0, 8).map(j => `
+    <tr>
+      <td>${esc(j.name)}</td>
+      <td><span style="color:var(--muted)">${esc(j.model)}</span></td>
+      <td>${j.runs}</td>
+      <td style="color:var(--cyan)">$${j.total_cost.toFixed(4)}</td>
+    </tr>
+  `).join('');
+}
+
+function renderWeights(ar) {
+  const el = document.getElementById('signal-weights');
+  const w = ar.weights || {};
+  const keys = Object.keys(w);
+  if (!keys.length) {
+    el.innerHTML = '<div style="color:var(--muted);font-size:0.85em;">No signal weight data available</div>';
+    return;
+  }
+  el.innerHTML = keys.map(k => {
+    const v = w[k];
+    const pct = Math.min(v * 100, 100);
+    const cls = pct >= 40 ? 'good' : pct >= 20 ? '' : pct >= 10 ? 'warn' : 'bad';
+    return `
+    <div class="weight-bar-container">
+      <div class="weight-bar-header">
+        <span>${esc(k)}</span>
+        <span><strong>${v.toFixed(2)}</strong></span>
+      </div>
+      <div class="weight-bar-track"><div class="weight-bar-fill ${cls}" style="width:${pct}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+function renderTrading(t) {
+  const el = document.getElementById('trading-panel');
+  if (!t || !t.last_update) {
+    el.innerHTML = '<div style="color:var(--muted);font-size:0.85em;">No trading data available</div>';
+    return;
+  }
+  const stats = t.stats || {};
+  const pnl = stats.total_pnl || stats.realized_pnl || 0;
+  const pnlClass = pnl >= 0 ? 'green' : 'red';
+  const prices = t.prices || {};
+
+  let priceHTML = Object.entries(prices).map(([k,v]) =>
+    `<span style="margin-right:12px"><strong>${k.toUpperCase()}</strong>: $${typeof v === 'number' ? v.toLocaleString() : v}</span>`
+  ).join('');
+
+  let equityHTML = '';
+  if (t.equity_curve && t.equity_curve.length > 1) {
+    equityHTML = `<div class="equity-chart"><canvas id="equity-canvas"></canvas></div>`;
+  }
+
+  el.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:10px; margin-bottom:12px;">
+      <div class="stat">
+        <div class="value ${pnlClass}">${pnl >= 0 ? '+' : ''}${typeof pnl === 'number' ? pnl.toFixed(2) : pnl}%</div>
+        <div class="label">Total PnL %</div>
+      </div>
+      <div class="stat">
+        <div class="value">${t.closed_trades ? t.closed_trades.length : 0}</div>
+        <div class="label">Closed Trades</div>
+      </div>
+      <div class="stat">
+        <div class="value">${Object.keys(t.positions || {}).length}</div>
+        <div class="label">Open Positions</div>
+      </div>
+      <div class="stat">
+        <div class="value" style="font-size:1em">${priceHTML || '—'}</div>
+        <div class="label">Prices</div>
+      </div>
+    </div>
+    <div style="font-size:0.75em; color:var(--muted);">Last update: ${esc(t.last_update)}</div>
+    ${equityHTML}
+  `;
+
+  // Draw equity curve
+  if (t.equity_curve && t.equity_curve.length > 1) {
+    setTimeout(() => drawEquityCurve(t.equity_curve), 100);
+  }
+}
+
+function drawEquityCurve(data) {
+  const canvas = document.getElementById('equity-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const rect = canvas.parentElement.getBoundingClientRect();
+  canvas.width = rect.width * 2;
+  canvas.height = rect.height * 2;
+  ctx.scale(2, 2);
+  const w = rect.width, h = rect.height;
+
+  const values = data.map(d => d.equity || d.value || d);
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const range = max - min || 1;
+
+  ctx.clearRect(0, 0, w, h);
+
+  // Gradient fill
+  const grad = ctx.createLinearGradient(0, 0, 0, h);
+  grad.addColorStop(0, 'rgba(124,58,237,0.3)');
+  grad.addColorStop(1, 'rgba(124,58,237,0)');
+
+  ctx.beginPath();
+  values.forEach((v, i) => {
+    const x = (i / (values.length - 1)) * w;
+    const y = h - ((v - min) / range) * (h - 10) - 5;
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  });
+  ctx.lineTo(w, h);
+  ctx.lineTo(0, h);
+  ctx.closePath();
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  // Line
+  ctx.beginPath();
+  values.forEach((v, i) => {
+    const x = (i / (values.length - 1)) * w;
+    const y = h - ((v - min) / range) * (h - 10) - 5;
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  });
+  ctx.strokeStyle = '#7c3aed';
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+}
+
+function renderHarness(tools) {
+  document.getElementById('harness-grid').innerHTML = tools.map(t => `
+    <div class="harness-card">
+      <div class="hname">${esc(t.name)}</div>
+      <div class="hdesc">${esc(t.description)}</div>
+      <span class="h-status ${t.exists ? 'ok' : 'missing'}">${t.exists ? '✓ Deployed' : '✗ Missing'}</span>
+      ${t.exists ? '<span style="color:var(--muted);font-size:0.7em;margin-left:4px;">' + (t.size/1024).toFixed(1) + 'KB</span>' : ''}
+    </div>
+  `).join('');
+}
+
+function renderTraces(traces) {
+  const el = document.getElementById('traces-panel');
+  if (!traces.total || !traces.recent.length) {
+    el.innerHTML = '<div style="color:var(--muted);font-size:0.85em;">No traces recorded yet. Tracing is initialized but awaiting cron integration.</div>';
+    return;
+  }
+  el.innerHTML = `
+    <div style="font-size:0.8em;color:var(--muted);margin-bottom:8px;">
+      ${traces.total} total traces · Showing last ${traces.recent.length}
+    </div>
+    <table class="data-table">
+      <thead><tr><th>Time</th><th>Session</th><th>Model</th><th>Task</th><th>Duration</th><th>Outcome</th></tr></thead>
+      <tbody>${traces.recent.map(t => `
+        <tr>
+          <td>${esc(fmtTime(t.timestamp))}</td>
+          <td style="color:var(--muted)">${esc((t.session_id||'').substring(0,12))}</td>
+          <td>${esc(t.model||'—')}</td>
+          <td>${esc(t.task_type||'—')}</td>
+          <td>${t.duration_ms ? t.duration_ms + 'ms' : '—'}</td>
+          <td>${esc(t.outcome||'—')}</td>
+        </tr>
+      `).join('')}</tbody>
+    </table>`;
+}
+
+function esc(s) {
+  if (s == null) return '';
+  const d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+
+function loadData() {
+  fetch(DATA_URL + '?t=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      document.getElementById('collected-at').textContent = data.collected_at || '?';
+      document.getElementById('footer-ts').textContent = data.collected_at || '';
+
+      renderStats(data.summary || {});
+      renderCB(data.circuit_breaker || {});
+      renderCron(data.cron || []);
+      renderCost(data.costs || {});
+      renderWeights(data.autoreason || {});
+      renderTrading(data.trading || {});
+      renderHarness(data.harness || []);
+      renderTraces(data.traces || {});
+    })
+    .catch(err => {
+      document.querySelector('.container').innerHTML = `
+        <div class="error-panel">
+          <h2>⚠️ Failed to load dashboard data</h2>
+          <p style="color:var(--muted);margin-top:8px;">${esc(err.message)}</p>
+          <p style="color:var(--muted);margin-top:4px;">Ensure <code>fleet_data_collector.py</code> is running and writing to <code>dashboard_data.json</code></p>
+          <button class="refresh-btn" style="margin-top:12px" onclick="location.reload()">↻ Retry</button>
+        </div>`;
+    });
+}
+
+// Auto-refresh
+loadData();
+setInterval(loadData, REFRESH_MS);
+</script>
+</body>
+</html>
