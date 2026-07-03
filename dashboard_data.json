@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T19:28:15+08:00",
+  "collected_at": "2026-07-03T19:28:35+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -1198,30 +1198,8 @@
   },
   "circuit_breaker": {
     "total_tracked": 29,
-    "tripped_count": 3,
-    "tripped": [
-      {
-        "job_id": "652fe2a9c9ca",
-        "job_name": "?",
-        "failure_count": 0,
-        "tripped_at": "2026-07-02T14:45:08.466841+08:00",
-        "cooldown_until": ""
-      },
-      {
-        "job_id": "14fd127d289c",
-        "job_name": "?",
-        "failure_count": 0,
-        "tripped_at": "2026-07-02T14:45:08.466841+08:00",
-        "cooldown_until": ""
-      },
-      {
-        "job_id": "ccddd0e232cc",
-        "job_name": "?",
-        "failure_count": 0,
-        "tripped_at": "2026-07-02T14:45:08.466841+08:00",
-        "cooldown_until": ""
-      }
-    ]
+    "tripped_count": 0,
+    "tripped": []
   },
   "autoreason": {
     "timestamp": "2026-07-01T20:01:31Z",
@@ -2774,7 +2752,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "19:28  up 17 days,  9:29, 2 users, load averages: 1.37 1.29 1.31",
+    "uptime": "19:28  up 17 days,  9:29, 2 users, load averages: 1.47 1.32 1.32",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 5e2b051e\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 1298 commits behind \u2014 run 'hermes update'"
   },
@@ -2783,7 +2761,7 @@
     "active_jobs": 30,
     "healthy_jobs": 28,
     "errored_jobs": 0,
-    "tripped_jobs": 3,
+    "tripped_jobs": 0,
     "total_cost_estimate": 0.151086,
     "total_cost_records": 380,
     "autoreason_status": "error",
