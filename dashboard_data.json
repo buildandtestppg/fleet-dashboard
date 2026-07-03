@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T19:28:35+08:00",
+  "collected_at": "2026-07-03T19:30:49+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -746,7 +746,7 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-03T19:30:00+08:00",
+      "next_run": "2026-07-03T19:35:00+08:00",
       "last_run": "2026-07-03T19:25:52.701466+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1012,7 +1012,7 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-03T19:30:00+08:00",
+      "next_run": "2026-07-03T19:40:00+08:00",
       "last_run": "2026-07-03T19:20:50.343011+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -2752,7 +2752,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "19:28  up 17 days,  9:29, 2 users, load averages: 1.47 1.32 1.32",
+    "uptime": "19:30  up 17 days,  9:31, 2 users, load averages: 1.20 1.25 1.29",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 5e2b051e\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 1298 commits behind \u2014 run 'hermes update'"
   },
