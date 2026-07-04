@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T19:00:29+08:00",
+  "collected_at": "2026-07-04T19:10:31+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -22,7 +22,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1480959499060645950",
-      "next_run": "2026-07-04T19:05:00+08:00",
+      "next_run": "2026-07-04T19:35:00+08:00",
       "last_run": "2026-07-04T18:46:16.381013+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5388
+        "completed": 5389
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,7 +119,7 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-07-04T19:20:00+08:00",
-      "last_run": "2026-07-04T18:41:32.628184+08:00",
+      "last_run": "2026-07-04T19:01:10.303542+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4962
+        "completed": 4963
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-04T19:07:00+08:00",
-      "last_run": "2026-07-04T18:53:19.733477+08:00",
+      "next_run": "2026-07-04T19:22:00+08:00",
+      "last_run": "2026-07-04T19:08:49.765003+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 7228
+        "completed": 7229
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -214,8 +214,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-07-04T19:03:00+08:00",
-      "last_run": "2026-07-04T18:48:54.970491+08:00",
+      "next_run": "2026-07-04T19:18:00+08:00",
+      "last_run": "2026-07-04T19:03:48.276389+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2079
+        "completed": 2081
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-04T19:05:00+08:00",
-      "last_run": "2026-07-04T18:55:32.562525+08:00",
+      "next_run": "2026-07-04T19:15:00+08:00",
+      "last_run": "2026-07-04T19:05:34.548050+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 312
+        "completed": 313
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-04T19:10:00+08:00",
-      "last_run": "2026-07-04T18:50:30.284799+08:00",
+      "next_run": "2026-07-04T19:20:00+08:00",
+      "last_run": "2026-07-04T19:00:31.618491+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 19
+        "completed": 20
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1047,7 +1047,7 @@
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
       "next_run": "2026-07-04T19:15:00+08:00",
-      "last_run": "2026-07-04T18:45:49.946852+08:00",
+      "last_run": "2026-07-04T19:00:52.067685+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1251,7 +1251,7 @@
     "model": "glm-5-turbo"
   },
   "trading": {
-    "last_update": "2026-07-04T10:55:29.061273+00:00",
+    "last_update": "2026-07-04T11:05:30.510918+00:00",
     "portfolio": {
       "value": 5052.9,
       "capital": 5052.9,
@@ -1261,10 +1261,10 @@
       "open_positions": 0
     },
     "prices": {
-      "BTC": 62507.5,
-      "ETH": 1760.55,
-      "SOL": 81.6965,
-      "HYPE": 70.7505
+      "BTC": 62467.5,
+      "ETH": 1758.25,
+      "SOL": 81.5475,
+      "HYPE": 70.4795
     },
     "stats": {
       "total_trades": 19,
@@ -1664,7 +1664,7 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.33,
+        "score": 0.39,
         "confidence": 0.84,
         "sources": [
           "x_scanner",
@@ -1675,7 +1675,7 @@
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcb0 $BTC] @WatcherGuru (\ud83d\udc4d129 \ud83d\udd0423) Metaplanet buys 2,823 BTC | whale_monitor: Orderbook 74% bid-weighted (bullish) | oi_funding: OI -5.0% 1h",
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcb0 $BTC] @WatcherGuru (\ud83d\udc4d129 \ud83d\udd0423) Metaplanet buys 2,823 BTC | whale_monitor: Orderbook 34% bid (ask-heavy, bearish) | oi_funding: OI +9.0% 1h, funding 0.0013%",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -1693,20 +1693,21 @@
             "weight": 3.38
           }
         ],
-        "timestamp": "2026-07-04T10:55:28.982615+00:00"
+        "timestamp": "2026-07-04T11:05:30.430556+00:00"
       },
       "ETH": {
-        "score": 0.24,
-        "confidence": 0.74,
+        "score": 0.31,
+        "confidence": 1.0,
         "sources": [
           "x_scanner",
-          "whale_monitor"
+          "whale_monitor",
+          "oi_funding"
         ],
-        "signal_count": 3,
+        "signal_count": 4,
         "convergence": true,
-        "convergence_strength": 2,
+        "convergence_strength": 3,
         "contradictions": 0,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $ETH] @Cointelegraph (\ud83d\udc4d31 \ud83d\udd046) Machi Big Brother sold 3 | whale_monitor: Orderbook 67% bid-weighted (bullish)",
+        "narrative": "\ud83d\udcc8 3-source bullish convergence | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $ETH] @Cointelegraph (\ud83d\udc4d31 \ud83d\udd046) Machi Big Brother sold 3 | whale_monitor: Orderbook 64% bid-weighted (bullish) | oi_funding: OI +4.0% 1h, funding 0.0013%",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -1719,26 +1720,25 @@
             "weight": 3.25
           },
           {
-            "source": "whale_monitor",
-            "signal": "Orderbook 67% bid-weighted (bullish)",
-            "weight": 0.68
+            "source": "oi_funding",
+            "signal": "OI +4.0% 1h, funding 0.0013%",
+            "weight": 0.72
           }
         ],
-        "timestamp": "2026-07-04T10:55:28.982629+00:00"
+        "timestamp": "2026-07-04T11:05:30.430571+00:00"
       },
       "SOL": {
-        "score": 0.64,
-        "confidence": 0.84,
+        "score": 0.45,
+        "confidence": 0.5,
         "sources": [
           "x_scanner",
-          "whale_monitor",
           "oi_funding"
         ],
-        "signal_count": 3,
-        "convergence": true,
-        "convergence_strength": 2,
+        "signal_count": 2,
+        "convergence": false,
+        "convergence_strength": 0,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $SOL] @solana (\ud83d\udc4d82 \ud83d\udd0414) the endgame: every asset, every | whale_monitor: Orderbook 79% bid-weighted (bullish) | oi_funding: OI -62.0% 1h",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udcc8 $SOL] @solana (\ud83d\udc4d82 \ud83d\udd0414) the endgame: every asset, every | oi_funding: OI -9.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -1747,16 +1747,11 @@
           },
           {
             "source": "oi_funding",
-            "signal": "OI -62.0% 1h",
+            "signal": "OI -9.0% 1h",
             "weight": 1.44
-          },
-          {
-            "source": "whale_monitor",
-            "signal": "Orderbook 79% bid-weighted (bullish)",
-            "weight": 1.16
           }
         ],
-        "timestamp": "2026-07-04T10:55:28.982639+00:00"
+        "timestamp": "2026-07-04T11:05:30.430580+00:00"
       },
       "HYPE": {
         "score": 0.73,
@@ -1769,7 +1764,7 @@
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $HYPE] @HyperliquidX (\ud83d\udc4d114 \ud83d\udd0419) VALR integrates Hyperl | oi_funding: OI -39.0% 1h",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $HYPE] @HyperliquidX (\ud83d\udc4d114 \ud83d\udd0419) VALR integrates Hyperl | oi_funding: OI -15.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -1787,7 +1782,7 @@
             "weight": 3.25
           }
         ],
-        "timestamp": "2026-07-04T10:55:28.982648+00:00"
+        "timestamp": "2026-07-04T11:05:30.430589+00:00"
       }
     },
     "ai_history": [
@@ -1874,16 +1869,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5069.386789844102,
     "equity_curve": [
-      {
-        "t": "2026-07-03T19:59:49.370239+00:00",
-        "v": 5060.46,
-        "p": 1.21
-      },
-      {
-        "t": "2026-07-03T20:00:46.108059+00:00",
-        "v": 5057.28,
-        "p": 1.15
-      },
       {
         "t": "2026-07-03T20:05:46.735839+00:00",
         "v": 5054.72,
@@ -2873,6 +2858,16 @@
         "t": "2026-07-04T10:55:29.061273+00:00",
         "v": 5052.9,
         "p": 1.06
+      },
+      {
+        "t": "2026-07-04T11:00:29.825567+00:00",
+        "v": 5052.9,
+        "p": 1.06
+      },
+      {
+        "t": "2026-07-04T11:05:30.510918+00:00",
+        "v": 5052.9,
+        "p": 1.06
       }
     ]
   },
@@ -2961,7 +2956,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "19:00  up 18 days,  9:01, 2 users, load averages: 1.19 1.39 1.47",
+    "uptime": "19:10  up 18 days,  9:11, 2 users, load averages: 1.83 1.84 1.64",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 5445e42b\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 1378 commits behind \u2014 run 'hermes update'"
   },
