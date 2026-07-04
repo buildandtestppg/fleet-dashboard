@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T19:20:31+08:00",
+  "collected_at": "2026-07-04T19:30:32+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -45,7 +45,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2018
+        "completed": 2019
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -54,8 +54,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-07-04T19:25:00+08:00",
-      "last_run": "2026-07-04T18:25:48.679339+08:00",
+      "next_run": "2026-07-04T20:25:00+08:00",
+      "last_run": "2026-07-04T19:26:00.281757+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5389
+        "completed": 5390
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,7 +119,7 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-07-04T19:40:00+08:00",
-      "last_run": "2026-07-04T19:01:10.303542+08:00",
+      "last_run": "2026-07-04T19:22:54.893457+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4963
+        "completed": 4964
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-04T19:22:00+08:00",
-      "last_run": "2026-07-04T19:08:49.765003+08:00",
+      "next_run": "2026-07-04T19:37:00+08:00",
+      "last_run": "2026-07-04T19:23:40.032037+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2083
+        "completed": 2085
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-04T19:25:00+08:00",
-      "last_run": "2026-07-04T19:15:35.499799+08:00",
+      "next_run": "2026-07-04T19:35:00+08:00",
+      "last_run": "2026-07-04T19:25:36.232425+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 314
+        "completed": 315
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-04T19:30:00+08:00",
-      "last_run": "2026-07-04T19:10:33.142902+08:00",
+      "next_run": "2026-07-04T19:40:00+08:00",
+      "last_run": "2026-07-04T19:20:34.386624+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-04T19:30:00+08:00",
+      "next_run": "2026-07-04T19:45:00+08:00",
       "last_run": "2026-07-04T19:15:54.596522+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1251,7 +1251,7 @@
     "model": "glm-5-turbo"
   },
   "trading": {
-    "last_update": "2026-07-04T11:15:31.507047+00:00",
+    "last_update": "2026-07-04T11:25:32.259649+00:00",
     "portfolio": {
       "value": 5052.9,
       "capital": 5052.9,
@@ -1261,10 +1261,10 @@
       "open_positions": 0
     },
     "prices": {
-      "BTC": 62518.5,
-      "ETH": 1758.85,
-      "SOL": 81.7085,
-      "HYPE": 70.5135
+      "BTC": 62478.5,
+      "ETH": 1758.45,
+      "SOL": 81.7285,
+      "HYPE": 70.3995
     },
     "stats": {
       "total_trades": 19,
@@ -1664,40 +1664,78 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.39,
-        "confidence": 0.84,
+        "score": 1.0,
+        "confidence": 0.3,
         "sources": [
-          "x_scanner",
-          "whale_monitor",
-          "oi_funding"
+          "x_scanner"
         ],
-        "signal_count": 5,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcb0 $BTC] @WatcherGuru (\ud83d\udc4d129 \ud83d\udd0423) Metaplanet buys 2,823 BTC | whale_monitor: Orderbook 34% bid (ask-heavy, bearish) | oi_funding: OI +9.0% 1h, funding 0.0013%",
+        "signal_count": 1,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [$BTC] @theblockopedia_ DeFi Report sees green lights for ",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcb0 $BTC] @WatcherGuru (\ud83d\udc4d129 \ud83d\udd0423) Metaplanet buys 2,823 BTC worth $170M; now 43K BTC ($2.58B) [score: 6.0]",
-            "weight": 3.9
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcb0 $BTC] @Cointelegraph (\ud83d\udc4d27 \ud83d\udd043) BlackRock $BTC outflow streak: 10 days, 35,980 BTC (~$2.24B) [score: 5.6]",
-            "weight": 3.64
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcb0 $BTC] @Cointelegraph (\ud83d\udc4d37 \ud83d\udd047) Collins deposited 500 BTC ($30.85M) to Coinbase Prime [score: 5.2]",
-            "weight": 3.38
+            "signal": "\u2022 [$BTC] @theblockopedia_ DeFi Report sees green lights for buying $BTC. Key signal: BTC below 200-week MA ($62.4K). [sc",
+            "weight": 1.62
           }
         ],
-        "timestamp": "2026-07-04T11:15:31.425514+00:00"
+        "timestamp": "2026-07-04T11:25:32.178610+00:00"
       },
       "ETH": {
-        "score": 0.31,
-        "confidence": 1.0,
+        "score": -0.3,
+        "confidence": 0.3,
+        "sources": [
+          "x_scanner"
+        ],
+        "signal_count": 3,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [$ETH] @Aquaforge_X $BTC ripped near $62K \u2014 short squeeze ",
+        "key_signals": [
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [$ETH] @Aquaforge_X $BTC ripped near $62K \u2014 short squeeze wiped out $281M in liquidations (nearly double longs). [scor",
+            "weight": 1.62
+          },
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [$ETH] @dens_club (\ud83d\udc4d10 \ud83d\udd041) Macro accumulation targets: $SOL $140-185, $SUI $3.50-5.20, $ETH $2800-3600. [score: 2.4]",
+            "weight": 1.56
+          },
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [$ETH] @ItsBitcoinWorld UXLINK exploiter swapped 10.54M $DAI for 6,001 $ETH at ~$1,757 avg via TornadoCash. [score: 2.",
+            "weight": 1.3
+          }
+        ],
+        "timestamp": "2026-07-04T11:25:32.178623+00:00"
+      },
+      "SOL": {
+        "score": 1.0,
+        "confidence": 0.3,
+        "sources": [
+          "whale_monitor"
+        ],
+        "signal_count": 1,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (whale_monitor) | whale_monitor: Orderbook 77% bid-weighted (bullish)",
+        "key_signals": [
+          {
+            "source": "whale_monitor",
+            "signal": "Orderbook 77% bid-weighted (bullish)",
+            "weight": 1.08
+          }
+        ],
+        "timestamp": "2026-07-04T11:25:32.178631+00:00"
+      },
+      "HYPE": {
+        "score": 0.55,
+        "confidence": 0.84,
         "sources": [
           "x_scanner",
           "whale_monitor",
@@ -1705,84 +1743,27 @@
         ],
         "signal_count": 4,
         "convergence": true,
-        "convergence_strength": 3,
-        "contradictions": 0,
-        "narrative": "\ud83d\udcc8 3-source bullish convergence | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $ETH] @Cointelegraph (\ud83d\udc4d31 \ud83d\udd046) Machi Big Brother sold 3 | whale_monitor: Orderbook 64% bid-weighted (bullish) | oi_funding: OI +4.0% 1h, funding 0.0013%",
+        "convergence_strength": 2,
+        "contradictions": 1,
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [$HYPE] @SerHodlGoblin Building @FireFliesMarket \u2014 almost  | whale_monitor: Orderbook 70% bid-weighted (bullish) | oi_funding: OI -7.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $ETH] @Cointelegraph (\ud83d\udc4d31 \ud83d\udd046) Machi Big Brother sold 3 BAYC at $40K loss, added to $ETH longs [score: 5.4]",
-            "weight": 4.32
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcca $ETH] @Ryker_Crypto (\ud83d\udc4d235 \ud83d\udd0419) Liquidation heatmap warnings $BTC/$ETH [score: 5.0]",
-            "weight": 3.25
+            "signal": "\u2022 [$HYPE] @SerHodlGoblin Building @FireFliesMarket \u2014 almost ready to launch on Hyperliquid. [score: 2.5]",
+            "weight": 1.62
           },
           {
             "source": "oi_funding",
-            "signal": "OI +4.0% 1h, funding 0.0013%",
-            "weight": 0.72
-          }
-        ],
-        "timestamp": "2026-07-04T11:15:31.425532+00:00"
-      },
-      "SOL": {
-        "score": 0.45,
-        "confidence": 0.5,
-        "sources": [
-          "x_scanner",
-          "oi_funding"
-        ],
-        "signal_count": 2,
-        "convergence": false,
-        "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udcc8 $SOL] @solana (\ud83d\udc4d82 \ud83d\udd0414) the endgame: every asset, every | oi_funding: OI -9.0% 1h",
-        "key_signals": [
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $SOL] @solana (\ud83d\udc4d82 \ud83d\udd0414) the endgame: every asset, everywhere, apeable on solana [score: 5.9]",
-            "weight": 3.84
-          },
-          {
-            "source": "oi_funding",
-            "signal": "OI -9.0% 1h",
-            "weight": 1.44
-          }
-        ],
-        "timestamp": "2026-07-04T11:15:31.425541+00:00"
-      },
-      "HYPE": {
-        "score": 0.73,
-        "confidence": 0.5,
-        "sources": [
-          "x_scanner",
-          "oi_funding"
-        ],
-        "signal_count": 6,
-        "convergence": false,
-        "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $HYPE] @HyperliquidX (\ud83d\udc4d114 \ud83d\udd0419) VALR integrates Hyperl | oi_funding: OI -15.0% 1h",
-        "key_signals": [
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @HyperliquidX (\ud83d\udc4d114 \ud83d\udd0419) VALR integrates Hyperliquid as onchain infra for perpetuals [score: 8.5]",
-            "weight": 5.53
+            "signal": "OI -7.0% 1h",
+            "weight": 1.26
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @Cointelegraph (\ud83d\udc4d32 \ud83d\udd042) VALR integrates Hyperliquid \u2014 first CEX using HL as infra [score: 5.7]",
-            "weight": 3.71
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @tradexyz (\ud83d\udc4d207 \ud83d\udd0437) Trade[XYZ] + Hyperliquid data now live on TradingView [score: 5.0]",
-            "weight": 3.25
+            "signal": "\u2022 [$HYPE] @lin_btc (\ud83d\udc4d5) Polymarket, Hyperliquid, Pump still top of on-chain revenue. Most profitable = betting/leverage/",
+            "weight": 1.17
           }
         ],
-        "timestamp": "2026-07-04T11:15:31.425551+00:00"
+        "timestamp": "2026-07-04T11:25:32.178643+00:00"
       }
     },
     "ai_history": [
@@ -1869,16 +1850,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5069.386789844102,
     "equity_curve": [
-      {
-        "t": "2026-07-03T20:15:47.855009+00:00",
-        "v": 5066.67,
-        "p": 1.33
-      },
-      {
-        "t": "2026-07-03T20:20:48.395689+00:00",
-        "v": 5078.47,
-        "p": 1.57
-      },
       {
         "t": "2026-07-03T20:25:49.109292+00:00",
         "v": 5080.8,
@@ -2868,6 +2839,16 @@
         "t": "2026-07-04T11:15:31.507047+00:00",
         "v": 5052.9,
         "p": 1.06
+      },
+      {
+        "t": "2026-07-04T11:20:31.910689+00:00",
+        "v": 5052.9,
+        "p": 1.06
+      },
+      {
+        "t": "2026-07-04T11:25:32.259649+00:00",
+        "v": 5052.9,
+        "p": 1.06
       }
     ]
   },
@@ -2956,7 +2937,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "19:20  up 18 days,  9:21, 2 users, load averages: 1.24 1.40 1.48",
+    "uptime": "19:30  up 18 days,  9:31, 2 users, load averages: 1.12 1.27 1.36",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 5445e42b\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 1378 commits behind \u2014 run 'hermes update'"
   },
