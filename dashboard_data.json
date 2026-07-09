@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-09T09:50:45+08:00",
+  "collected_at": "2026-07-09T10:00:46+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-07-09T10:00:00+08:00",
+      "next_run": "2026-07-09T10:20:00+08:00",
       "last_run": "2026-07-09T09:41:58.131687+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5405
+        "completed": 5406
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-09T09:52:00+08:00",
-      "last_run": "2026-07-09T09:38:24.284435+08:00",
+      "next_run": "2026-07-09T10:07:00+08:00",
+      "last_run": "2026-07-09T09:53:26.126110+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -575,7 +575,7 @@
       "script": "market_analyst.sh",
       "no_agent": true,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-07-09T10:00:00+08:00",
+      "next_run": "2026-07-09T12:00:00+08:00",
       "last_run": "2026-07-09T08:00:34.539843+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3409
+        "completed": 3411
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-09T09:55:00+08:00",
-      "last_run": "2026-07-09T09:45:48.646263+08:00",
+      "next_run": "2026-07-09T10:05:00+08:00",
+      "last_run": "2026-07-09T09:55:50.467129+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 977
+        "completed": 978
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-09T10:00:00+08:00",
-      "last_run": "2026-07-09T09:40:46.593908+08:00",
+      "next_run": "2026-07-09T10:10:00+08:00",
+      "last_run": "2026-07-09T09:50:47.640124+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-09T10:00:00+08:00",
+      "next_run": "2026-07-09T10:15:00+08:00",
       "last_run": "2026-07-09T09:46:18.998061+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1081,7 +1081,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-09T10:00:00+08:00",
+      "next_run": "2026-07-09T12:00:00+08:00",
       "last_run": "2026-07-09T08:01:53.512465+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 656
+        "completed": 657
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-09T10:00:00+08:00",
-      "last_run": "2026-07-09T09:40:48.436879+08:00",
+      "next_run": "2026-07-09T10:10:00+08:00",
+      "last_run": "2026-07-09T09:50:49.287718+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 532
+        "completed": 533
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-09T10:00:00+08:00",
-      "last_run": "2026-07-09T09:40:45.359080+08:00",
+      "next_run": "2026-07-09T10:10:00+08:00",
+      "last_run": "2026-07-09T09:50:46.433878+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1004
+        "completed": 1005
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-09T09:55:00+08:00",
-      "last_run": "2026-07-09T09:50:45.697972+08:00",
+      "next_run": "2026-07-09T10:05:00+08:00",
+      "last_run": "2026-07-09T09:55:46.120716+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-09T10:00:00+08:00",
+      "next_run": "2026-07-09T10:15:00+08:00",
       "last_run": "2026-07-09T09:45:45.075385+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1480,20 +1480,20 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-09T01:48:49.561375+00:00",
+    "last_update": "2026-07-09T01:55:46.210802+00:00",
     "portfolio": {
-      "value": 5025.54,
+      "value": 5015.26,
       "capital": 5013.99,
       "initial": 5000.0,
-      "pnl": 25.54,
-      "pnl_pct": 0.51,
+      "pnl": 15.26,
+      "pnl_pct": 0.31,
       "open_positions": 2
     },
     "prices": {
-      "BTC": 62030.0,
-      "ETH": 1734.75,
-      "SOL": 77.7455,
-      "HYPE": 67.6055
+      "BTC": 61907.5,
+      "ETH": 1732.75,
+      "SOL": 77.4835,
+      "HYPE": 67.3435
     },
     "stats": {
       "total_trades": 37,
@@ -1510,32 +1510,32 @@
       "SOL": {
         "direction": "LONG",
         "entry_price": 77.435,
-        "current_price": 77.7455,
+        "current_price": 77.4835,
         "size": 21.38181193192617,
-        "unrealized_pnl": 6.52,
-        "unrealized_pnl_pct": 0.39,
+        "unrealized_pnl": 0.92,
+        "unrealized_pnl_pct": 0.06,
         "stop_loss": 75.08875,
         "take_profit": 82.1275,
         "strategy": "stochastic",
         "entry_time": "2026-07-08T20:05:06.514007+00:00",
-        "duration_hours": 5.7,
+        "duration_hours": 5.8,
         "funding_rate": 0.00125,
-        "unrealized_funding": 0.119
+        "unrealized_funding": 0.121
       },
       "HYPE": {
         "direction": "LONG",
         "entry_price": 67.3215,
-        "current_price": 67.6055,
+        "current_price": 67.3435,
         "size": 17.825530211795357,
-        "unrealized_pnl": 5.03,
-        "unrealized_pnl_pct": 0.42,
+        "unrealized_pnl": 0.35,
+        "unrealized_pnl_pct": 0.03,
         "stop_loss": 64.50775,
         "take_profit": 72.949,
         "strategy": "trend",
         "entry_time": "2026-07-08T23:20:29.891440+00:00",
-        "duration_hours": 2.5,
+        "duration_hours": 2.6,
         "funding_rate": 0.00125,
-        "unrealized_funding": 0.0372
+        "unrealized_funding": 0.0388
       }
     },
     "closed_trades": [
@@ -2230,18 +2230,18 @@
     },
     "sentiment": {
       "BTC": {
-        "score": -0.1,
+        "score": -0.86,
         "confidence": 0.84,
         "sources": [
           "x_scanner",
           "whale_monitor",
           "oi_funding"
         ],
-        "signal_count": 3,
+        "signal_count": 5,
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: DePIN leads engagement with Parallax Network's App Store lau | whale_monitor: Orderbook 63% bid-weighted (bullish) | oi_funding: OI -14.0% 1h",
+        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: DePIN sector is bifurcating \u2014 real product launches (Paralla | whale_monitor: Orderbook 63% bid-weighted (bullish) | oi_funding: OI -14.0% 1h",
         "key_signals": [
           {
             "source": "oi_funding",
@@ -2250,28 +2250,36 @@
           },
           {
             "source": "x_scanner",
-            "signal": "DePIN leads engagement with Parallax Network's App Store launch (59 likes). $BTC stuck in risk-off mode below all major ",
-            "weight": 0.65
+            "signal": "DePIN sector is bifurcating \u2014 real product launches (Parallax App Store) alongside rage posts (Grass $4.76 payout for 60",
+            "weight": 0.8
           },
           {
-            "source": "whale_monitor",
-            "signal": "Orderbook 63% bid-weighted (bullish)",
-            "weight": 0.52
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udcca $BTC] @bpaynews (\ud83d\udc4d0 \ud83d\udd040) Bank of Korea Governor says rates must be raised \u2014 risk asset implications [1.5]",
+            "weight": 0.65
           }
         ],
-        "timestamp": "2026-07-09T01:45:52.678168+00:00"
+        "timestamp": "2026-07-09T01:55:46.132003+00:00"
       },
       "ETH": {
-        "score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "signal_count": 0,
+        "score": -1.0,
+        "confidence": 0.3,
+        "sources": [
+          "x_scanner"
+        ],
+        "signal_count": 1,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "No active signals",
-        "key_signals": [],
-        "timestamp": "2026-07-09T01:45:52.678171+00:00"
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [\ud83d\udcca $ETH] @mannuelcrypto (\ud83d\udc4d0 \ud83d\udd040) Public wallet shorting $10",
+        "key_signals": [
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udcca $ETH] @mannuelcrypto (\ud83d\udc4d0 \ud83d\udd040) Public wallet shorting $100M of $ETH, down $2M+, liquidation ~$2.1K [1.5]",
+            "weight": 0.8
+          }
+        ],
+        "timestamp": "2026-07-09T01:55:46.132015+00:00"
       },
       "SOL": {
         "score": -1.0,
@@ -2291,39 +2299,33 @@
             "weight": 1.44
           }
         ],
-        "timestamp": "2026-07-09T01:45:52.678181+00:00"
+        "timestamp": "2026-07-09T01:55:46.132022+00:00"
       },
       "HYPE": {
-        "score": 0.5,
-        "confidence": 0.84,
+        "score": -0.2,
+        "confidence": 0.5,
         "sources": [
-          "x_scanner",
           "whale_monitor",
           "oi_funding"
         ],
-        "signal_count": 4,
-        "convergence": true,
-        "convergence_strength": 2,
+        "signal_count": 2,
+        "convergence": false,
+        "convergence_strength": 0,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83c\udfd7 $HYPE] @therollupco @TradeParagon building \"S&P 2.0 on  | whale_monitor: Orderbook 74% bid-weighted (bullish) | oi_funding: OI -92.0% 1h",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | whale_monitor: Orderbook 74% bid-weighted (bullish) | oi_funding: OI -92.0% 1h",
         "key_signals": [
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7 $HYPE] @therollupco @TradeParagon building \"S&P 2.0 on Hyperliquid\" \u2014 a ticker factory that defines onchain standar",
-            "weight": 1.62
-          },
           {
             "source": "oi_funding",
             "signal": "OI -92.0% 1h",
             "weight": 1.44
           },
           {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @Nishi8mAlert (\ud83d\udd041) Hyperliquid Daily Snapshot: BTC OI -2.1% to $2.39B, ETH OI -1.9% \u2014 market correction tren",
-            "weight": 1.04
+            "source": "whale_monitor",
+            "signal": "Orderbook 74% bid-weighted (bullish)",
+            "weight": 0.96
           }
         ],
-        "timestamp": "2026-07-09T01:45:52.678194+00:00"
+        "timestamp": "2026-07-09T01:55:46.132030+00:00"
       }
     },
     "ai_history": [
@@ -2383,16 +2385,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-08T10:25:55.643751+00:00",
-        "v": 5029.46,
-        "p": 0.59
-      },
-      {
-        "t": "2026-07-08T10:30:56.107756+00:00",
-        "v": 5029.46,
-        "p": 0.59
-      },
       {
         "t": "2026-07-08T10:35:56.756851+00:00",
         "v": 5029.46,
@@ -3382,6 +3374,16 @@
         "t": "2026-07-09T01:48:49.561375+00:00",
         "v": 5025.54,
         "p": 0.51
+      },
+      {
+        "t": "2026-07-09T01:50:45.788316+00:00",
+        "v": 5015.58,
+        "p": 0.31
+      },
+      {
+        "t": "2026-07-09T01:55:46.210802+00:00",
+        "v": 5015.26,
+        "p": 0.31
       }
     ]
   },
@@ -3470,7 +3472,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "9:50  up 22 days, 23:51, 2 users, load averages: 1.91 1.92 1.82",
+    "uptime": "10:00  up 23 days, 1 min, 2 users, load averages: 1.53 1.99 1.91",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 449706cb\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 1953 commits behind \u2014 run 'hermes update'"
   },
