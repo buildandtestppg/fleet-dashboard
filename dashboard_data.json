@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-12T03:20:25+08:00",
+  "collected_at": "2026-07-12T03:30:27+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -45,7 +45,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2194
+        "completed": 2195
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -54,8 +54,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-07-12T03:25:00+08:00",
-      "last_run": "2026-07-12T02:25:30.232684+08:00",
+      "next_run": "2026-07-12T04:25:00+08:00",
+      "last_run": "2026-07-12T03:25:39.949561+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5917
+        "completed": 5918
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,7 +119,7 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-07-12T03:40:00+08:00",
-      "last_run": "2026-07-12T03:01:52.281901+08:00",
+      "last_run": "2026-07-12T03:21:02.828515+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5667
+        "completed": 5668
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-12T03:22:00+08:00",
-      "last_run": "2026-07-12T03:08:50.730029+08:00",
+      "next_run": "2026-07-12T03:37:00+08:00",
+      "last_run": "2026-07-12T03:23:03.987383+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4195
+        "completed": 4197
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T03:25:00+08:00",
-      "last_run": "2026-07-12T03:15:29.130896+08:00",
+      "next_run": "2026-07-12T03:35:00+08:00",
+      "last_run": "2026-07-12T03:25:30.899822+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1370
+        "completed": 1371
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T03:30:00+08:00",
-      "last_run": "2026-07-12T03:10:26.997005+08:00",
+      "next_run": "2026-07-12T03:40:00+08:00",
+      "last_run": "2026-07-12T03:20:27.529687+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T03:30:00+08:00",
+      "next_run": "2026-07-12T03:45:00+08:00",
       "last_run": "2026-07-12T03:16:02.248995+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1049
+        "completed": 1050
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T03:30:00+08:00",
-      "last_run": "2026-07-12T03:10:28.771556+08:00",
+      "next_run": "2026-07-12T03:40:00+08:00",
+      "last_run": "2026-07-12T03:20:29.627524+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1150,7 +1150,7 @@
       "script": "fleet_log_rotator.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T03:30:00+08:00",
+      "next_run": "2026-07-13T03:30:00+08:00",
       "last_run": "2026-07-11T03:30:44.084049+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 925
+        "completed": 926
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T03:30:00+08:00",
-      "last_run": "2026-07-12T03:10:25.462819+08:00",
+      "next_run": "2026-07-12T03:40:00+08:00",
+      "last_run": "2026-07-12T03:20:26.376948+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1789
+        "completed": 1791
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T03:25:00+08:00",
-      "last_run": "2026-07-12T03:15:25.179915+08:00",
+      "next_run": "2026-07-12T03:35:00+08:00",
+      "last_run": "2026-07-12T03:25:26.328193+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T03:30:00+08:00",
+      "next_run": "2026-07-12T03:45:00+08:00",
       "last_run": "2026-07-12T03:15:25.196831+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1474,67 +1474,34 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-11T19:15:25.281871+00:00",
+    "last_update": "2026-07-11T19:25:26.424643+00:00",
     "portfolio": {
-      "value": 4981.67,
-      "capital": 4980.57,
+      "value": 4976.82,
+      "capital": 4976.82,
       "initial": 5000.0,
-      "pnl": -18.33,
-      "pnl_pct": -0.37,
-      "open_positions": 1
+      "pnl": -23.18,
+      "pnl_pct": -0.46,
+      "open_positions": 0
     },
     "prices": {
-      "BTC": 64312.5,
-      "ETH": 1825.05,
-      "SOL": 78.0355,
-      "HYPE": 67.6575
+      "BTC": 64347.5,
+      "ETH": 1824.65,
+      "SOL": 78.0025,
+      "HYPE": 67.6555
     },
     "stats": {
-      "total_trades": 50,
+      "total_trades": 51,
       "wins": 24,
-      "losses": 26,
-      "win_rate": 48.0,
+      "losses": 27,
+      "win_rate": 47.1,
       "avg_win": 19.9,
-      "avg_loss": -15.67,
+      "avg_loss": -15.23,
       "best_trade": 54.93,
       "worst_trade": -45.01,
-      "total_realized_pnl": 70.3
+      "total_realized_pnl": 66.55
     },
-    "positions": {
-      "SOL": {
-        "direction": "LONG",
-        "entry_price": 78.0035,
-        "current_price": 78.0355,
-        "size": 45.22503004387284,
-        "unrealized_pnl": 1.1,
-        "unrealized_pnl_pct": 0.03,
-        "stop_loss": 76.90975,
-        "take_profit": 80.191,
-        "strategy": "stochastic",
-        "entry_time": "2026-07-11T11:25:32.353613+00:00",
-        "duration_hours": 7.8,
-        "funding_rate": 0.00125,
-        "unrealized_funding": 0.3455
-      }
-    },
+    "positions": {},
     "closed_trades": [
-      {
-        "pair": "BTC",
-        "direction": "LONG",
-        "entry_price": 58909.5,
-        "exit_price": 59885.5,
-        "size": 0.034078455511720056,
-        "pnl": 31.2525,
-        "pnl_pct": 1.56,
-        "entry_time": "2026-07-01T09:45:45.039748+00:00",
-        "exit_time": "2026-07-01T14:15:20.079478+00:00",
-        "duration_hours": 4.5,
-        "exit_reason": "regime_override",
-        "strategy": "trend",
-        "fees_paid": 1.9388,
-        "funding_cost": 0.0693,
-        "total_cost": 2.0081
-      },
       {
         "pair": "ETH",
         "direction": "SHORT",
@@ -2367,6 +2334,23 @@
         "fees_paid": 4.1637,
         "funding_cost": 0.2095,
         "total_cost": 4.3732
+      },
+      {
+        "pair": "SOL",
+        "direction": "LONG",
+        "entry_price": 78.0035,
+        "exit_price": 78.0025,
+        "size": 45.22503004387284,
+        "pnl": -3.7492,
+        "pnl_pct": -0.11,
+        "entry_time": "2026-07-11T11:25:32.353613+00:00",
+        "exit_time": "2026-07-11T19:25:27.778523+00:00",
+        "duration_hours": 8.0,
+        "exit_reason": "regime_override",
+        "strategy": "stochastic",
+        "fees_paid": 3.3513,
+        "funding_cost": 0.3527,
+        "total_cost": 3.704
       }
     ],
     "pair_strategies": {
@@ -2384,11 +2368,11 @@
         "win_rate": 44.1
       },
       "stochastic": {
-        "trades": 12,
+        "trades": 13,
         "wins": 8,
-        "losses": 4,
-        "pnl": 53.24,
-        "win_rate": 66.7
+        "losses": 5,
+        "pnl": 49.49,
+        "win_rate": 61.5
       },
       "breakout": {
         "trades": 4,
@@ -2414,11 +2398,11 @@
         "win_rate": 42.9
       },
       "SOL": {
-        "trades": 14,
+        "trades": 15,
         "wins": 9,
-        "losses": 5,
-        "pnl": 54.1,
-        "win_rate": 64.3
+        "losses": 6,
+        "pnl": 50.35,
+        "win_rate": 60.0
       },
       "HYPE": {
         "trades": 15,
@@ -2430,53 +2414,49 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.14,
+        "score": -0.06,
         "confidence": 0.5,
         "sources": [
           "x_scanner",
-          "news_agent"
+          "oi_funding"
         ],
-        "signal_count": 4,
+        "signal_count": 2,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udcca $BTC] @misterrcrypto (\ud83d\udc4d19 \ud83d\udd042) Bear markets have a shelf | news_agent: ceasefire over as Bitcoin slides toward $60K `$BTC`  \ud83d\udfe2 **ETF",
-        "key_signals": [
-          {
-            "source": "news_agent",
-            "signal": "ceasefire over as Bitcoin slides toward $60K `$BTC`  \ud83d\udfe2 **ETFs & Institutional** \u2022 Bitcoin ETFs 'Turning a Corner' After ",
-            "weight": 1.2
-          },
-          {
-            "source": "news_agent",
-            "signal": "\ud83d\udcf0 **Crypto News Briefing** \u2014 03:08 UTC  \ud83d\udfe2 **Geopolitical / Macro** \u2022 Trump declares US-Iran ceasefire over as Bitcoin sl",
-            "weight": 0.98
-          },
-          {
-            "source": "news_agent",
-            "signal": "rrencies  \ud83d\udfe2 **DeFi / Markets** \u2022 AscendEX Halts Operations, Freezes Automated Withdrawals \u2022 Strike Launches Bitcoin Loan",
-            "weight": 0.98
-          }
-        ],
-        "timestamp": "2026-07-11T19:15:25.185298+00:00"
-      },
-      "ETH": {
-        "score": 0.63,
-        "confidence": 0.5,
-        "sources": [
-          "x_scanner",
-          "polymarket"
-        ],
-        "signal_count": 6,
-        "convergence": false,
-        "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @fundstrat (\ud83d\udc4d212 \ud83d\udd0443) Robinhood Chain breakout \u2014  | polymarket: w $60K per market consensus near 99.5% for that floor).  **E",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: orange\\_circle [$BTC] @iamrahulinc US spot BTC ETFs net +$19 | oi_funding: OI +12.0% 1h, funding 0.0013%",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $ETH] @fundstrat (\ud83d\udc4d212 \ud83d\udd0443) Robinhood Chain breakout \u2014 more volume than established DEXes, uses $ETH as native gas ",
-            "weight": 0.8
+            "signal": "orange\\_circle [$BTC] @iamrahulinc US spot BTC ETFs net +$197.4M for week ending Jul 10 \u2014 first positive since early May",
+            "weight": 1.62
+          },
+          {
+            "source": "oi_funding",
+            "signal": "OI +12.0% 1h, funding 0.0013%",
+            "weight": 1.44
+          }
+        ],
+        "timestamp": "2026-07-11T19:25:26.341059+00:00"
+      },
+      "ETH": {
+        "score": -1.0,
+        "confidence": 1.0,
+        "sources": [
+          "x_scanner",
+          "polymarket",
+          "oi_funding"
+        ],
+        "signal_count": 3,
+        "convergence": true,
+        "convergence_strength": 3,
+        "contradictions": 0,
+        "narrative": "\ud83d\udcc9 3-source bearish convergence | x_scanner: \ud83d\udfe2 [$ETH] @CHASER712002 Bonzo alleged exploiter sitting on $7 | polymarket: w $60K per market consensus near 99.5% for that floor).  **E | oi_funding: OI -4.0% 1h",
+        "key_signals": [
+          {
+            "source": "x_scanner",
+            "signal": "\ud83d\udfe2 [$ETH] @CHASER712002 Bonzo alleged exploiter sitting on $7M in ETH. Bonzo reports $9M total missing, 920 ETH entered w",
+            "weight": 0.98
           },
           {
             "source": "polymarket",
@@ -2484,75 +2464,76 @@
             "weight": 0.78
           },
           {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udd25 $ETH] @SatoshiFlipper (\ud83d\udc4d84 \ud83d\udd044) ETH breaking out of 14-month HTF falling wedge, $5000 waiting room [2.8]",
-            "weight": 0.65
+            "source": "oi_funding",
+            "signal": "OI -4.0% 1h",
+            "weight": 0.72
           }
         ],
-        "timestamp": "2026-07-11T19:15:25.185312+00:00"
+        "timestamp": "2026-07-11T19:25:26.341075+00:00"
       },
       "SOL": {
-        "score": 0.38,
-        "confidence": 0.84,
+        "score": -1.0,
+        "confidence": 1.0,
         "sources": [
           "x_scanner",
-          "whale_monitor",
-          "polymarket"
+          "polymarket",
+          "oi_funding"
         ],
-        "signal_count": 4,
+        "signal_count": 3,
         "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83c\udd95 $SOL] @ADOL0RD (\ud83d\udc4d0 \ud83d\udd040) @playbullsranch \u2014 Solana farm ga | whale_monitor: Orderbook 65% bid-weighted (bullish) | polymarket: near 99.5% for that floor).  **ETH Key Levels:** $1,800 by J",
+        "convergence_strength": 3,
+        "contradictions": 0,
+        "narrative": "\ud83d\udcc9 3-source bearish convergence | x_scanner: \ud83d\udfe3 [$SOL] @TheWhiteTigre (\ud83d\udc4d7 \ud83d\udd045) \"Today I migrate to Robinhoo | polymarket: near 99.5% for that floor).  **ETH Key Levels:** $1,800 by J | oi_funding: OI -4.0% 1h",
         "key_signals": [
+          {
+            "source": "x_scanner",
+            "signal": "\ud83d\udfe3 [$SOL] @TheWhiteTigre (\ud83d\udc4d7 \ud83d\udd045) \"Today I migrate to Robinhood. Bye Solana & @toly, thanks for the 4 yr rug\" [score: 2.2]",
+            "weight": 1.43
+          },
           {
             "source": "polymarket",
             "signal": "near 99.5% for that floor).  **ETH Key Levels:** $1,800 by July 10 \u2014 just 9.5% (down 5pp), $1,900 range 6-12 July \u2014 9.4%",
             "weight": 0.96
           },
           {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udd95 $SOL] @ADOL0RD (\ud83d\udc4d0 \ud83d\udd040) @playbullsranch \u2014 Solana farm game, early access, on-chain passive yield, low cap [4.0]",
-            "weight": 0.65
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $SOL] @0xhiddenwhales (\ud83d\udc4d1 \ud83d\udd040) $USD1 hits $157M market cap on Solana [2.5]",
-            "weight": 0.65
+            "source": "oi_funding",
+            "signal": "OI -4.0% 1h",
+            "weight": 0.72
           }
         ],
-        "timestamp": "2026-07-11T19:15:25.185324+00:00"
+        "timestamp": "2026-07-11T19:25:26.341085+00:00"
       },
       "HYPE": {
-        "score": 1.0,
-        "confidence": 0.74,
+        "score": 0.95,
+        "confidence": 0.84,
         "sources": [
           "x_scanner",
-          "whale_monitor"
+          "whale_monitor",
+          "oi_funding"
         ],
-        "signal_count": 3,
+        "signal_count": 7,
         "convergence": true,
         "convergence_strength": 2,
-        "contradictions": 0,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $HYPE] @skyrimcall (\ud83d\udc4d3 \ud83d\udd041) Robinhood Network flips Hype | whale_monitor: Orderbook 64% bid-weighted (bullish)",
+        "contradictions": 1,
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \ud83d\udc8e [$HYPE] @stogolp (\ud83d\udc4d23 \ud83d\udd043) Hyperliquid lapped every dex in  | whale_monitor: Orderbook 28% bid (ask-heavy, bearish) | oi_funding: OI +20.0% 1h, funding 0.0006%",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @skyrimcall (\ud83d\udc4d3 \ud83d\udd041) Robinhood Network flips Hyperliquid in trading volume \u2014 new ATH [1.7]",
-            "weight": 0.8
+            "signal": "\ud83d\udc8e [$HYPE] @stogolp (\ud83d\udc4d23 \ud83d\udd043) Hyperliquid lapped every dex in OI and volume within hours on that meme. Only reason to be b",
+            "weight": 2.16
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @DefiCarvalho (\ud83d\udc4d1 \ud83d\udd040) $ANSEM listed on Hyperliquid \u2014 last meme to do this was Fartcoin [1.5]",
-            "weight": 0.65
+            "signal": "\ud83d\udc8e [$HYPE] @alexzagr96 Arcus (@arcus_xyz) \u2014 new DEX for tokenized stocks, 24/7 markets, 50x leverage, former dYdX builder",
+            "weight": 1.62
           },
           {
-            "source": "whale_monitor",
-            "signal": "Orderbook 64% bid-weighted (bullish)",
-            "weight": 0.56
+            "source": "x_scanner",
+            "signal": "\ud83d\udc8e [$HYPE] @alexzagr96 Arcus \u2014 new DEX for tokenized stocks with 50x leverage, backed by ex-dYdX builders, Robinhood inte",
+            "weight": 1.62
           }
         ],
-        "timestamp": "2026-07-11T19:15:25.185333+00:00"
+        "timestamp": "2026-07-11T19:25:26.341096+00:00"
       }
     },
     "ai_history": [
@@ -2608,20 +2589,10 @@
       "fee_aware": true,
       "asset_pruning": true
     },
-    "capital": 4980.572081711916,
+    "capital": 4976.822864045517,
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-11T03:45:38.035920+00:00",
-        "v": 4949.87,
-        "p": -1.0
-      },
-      {
-        "t": "2026-07-11T03:50:38.683825+00:00",
-        "v": 4949.87,
-        "p": -1.0
-      },
       {
         "t": "2026-07-11T03:55:39.219497+00:00",
         "v": 4949.87,
@@ -3611,6 +3582,16 @@
         "t": "2026-07-11T19:15:25.281871+00:00",
         "v": 4981.67,
         "p": -0.37
+      },
+      {
+        "t": "2026-07-11T19:20:25.679767+00:00",
+        "v": 4981.44,
+        "p": -0.37
+      },
+      {
+        "t": "2026-07-11T19:25:26.424643+00:00",
+        "v": 4976.82,
+        "p": -0.46
       }
     ]
   },
@@ -3699,7 +3680,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "3:20  up 25 days, 17:21, 2 users, load averages: 1.73 1.83 1.91",
+    "uptime": "3:30  up 25 days, 17:31, 2 users, load averages: 1.90 1.84 1.87",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 6142203b\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 2195 commits behind \u2014 run 'hermes update'"
   },
