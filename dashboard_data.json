@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-12T15:50:51+08:00",
+  "collected_at": "2026-07-12T16:00:52+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-07-12T16:00:00+08:00",
+      "next_run": "2026-07-12T16:20:00+08:00",
       "last_run": "2026-07-12T15:42:49.090276+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5717
+        "completed": 5718
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-12T15:52:00+08:00",
-      "last_run": "2026-07-12T15:38:55.049161+08:00",
+      "next_run": "2026-07-12T16:07:00+08:00",
+      "last_run": "2026-07-12T15:53:46.643109+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -575,7 +575,7 @@
       "script": "market_analyst.sh",
       "no_agent": true,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-07-12T16:00:00+08:00",
+      "next_run": "2026-07-12T18:00:00+08:00",
       "last_run": "2026-07-12T14:00:39.373831+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4345
+        "completed": 4347
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T15:55:00+08:00",
-      "last_run": "2026-07-12T15:45:55.213331+08:00",
+      "next_run": "2026-07-12T16:05:00+08:00",
+      "last_run": "2026-07-12T15:55:57.092957+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1445
+        "completed": 1446
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T16:00:00+08:00",
-      "last_run": "2026-07-12T15:40:52.705551+08:00",
+      "next_run": "2026-07-12T16:10:00+08:00",
+      "last_run": "2026-07-12T15:50:54.886874+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T16:00:00+08:00",
+      "next_run": "2026-07-12T16:15:00+08:00",
       "last_run": "2026-07-12T15:46:22.074671+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1081,7 +1081,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T16:00:00+08:00",
+      "next_run": "2026-07-12T18:00:00+08:00",
       "last_run": "2026-07-12T14:01:06.109917+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1124
+        "completed": 1125
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T16:00:00+08:00",
-      "last_run": "2026-07-12T15:40:54.463435+08:00",
+      "next_run": "2026-07-12T16:10:00+08:00",
+      "last_run": "2026-07-12T15:50:57.240502+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1000
+        "completed": 1001
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T16:00:00+08:00",
-      "last_run": "2026-07-12T15:40:51.115874+08:00",
+      "next_run": "2026-07-12T16:10:00+08:00",
+      "last_run": "2026-07-12T15:50:53.619792+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1940
+        "completed": 1941
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-12T15:55:00+08:00",
-      "last_run": "2026-07-12T15:50:51.498506+08:00",
+      "next_run": "2026-07-12T16:05:00+08:00",
+      "last_run": "2026-07-12T15:55:52.054721+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-12T16:00:00+08:00",
+      "next_run": "2026-07-12T16:15:00+08:00",
       "last_run": "2026-07-12T15:45:50.765186+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1479,20 +1479,20 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-12T07:45:50.886969+00:00",
+    "last_update": "2026-07-12T07:55:52.206345+00:00",
     "portfolio": {
-      "value": 4915.33,
+      "value": 4915.52,
       "capital": 4925.94,
       "initial": 5000.0,
-      "pnl": -84.67,
+      "pnl": -84.48,
       "pnl_pct": -1.69,
       "open_positions": 1
     },
     "prices": {
-      "BTC": 63860.5,
-      "ETH": 1796.85,
-      "SOL": 76.4815,
-      "HYPE": 66.8545
+      "BTC": 63891.5,
+      "ETH": 1798.35,
+      "SOL": 76.4895,
+      "HYPE": 66.8945
     },
     "stats": {
       "total_trades": 53,
@@ -1509,17 +1509,17 @@
       "SOL": {
         "direction": "LONG",
         "entry_price": 76.9125,
-        "current_price": 76.4815,
+        "current_price": 76.4895,
         "size": 24.413181031157077,
-        "unrealized_pnl": -10.61,
-        "unrealized_pnl_pct": -0.57,
+        "unrealized_pnl": -10.42,
+        "unrealized_pnl_pct": -0.56,
         "stop_loss": 74.8935,
         "take_profit": 80.9505,
         "strategy": "stochastic",
         "entry_time": "2026-07-12T03:45:25.302483+00:00",
-        "duration_hours": 4.0,
-        "funding_rate": 0.001226,
-        "unrealized_funding": 0.0917
+        "duration_hours": 4.2,
+        "funding_rate": 0.00125,
+        "unrealized_funding": 0.0974
       }
     },
     "closed_trades": [
@@ -2435,55 +2435,37 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.08,
-        "confidence": 0.84,
+        "score": 1.0,
+        "confidence": 0.3,
         "sources": [
-          "x_scanner",
-          "whale_monitor",
-          "news_agent"
+          "whale_monitor"
         ],
-        "signal_count": 3,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcca $BTC] @ViV_Trade $BTC short setup forming \u2014 Trump menti | whale_monitor: Orderbook 60% bid-weighted (bullish) | news_agent: FA World Cup semis + crypto plays (CHZ, Kraken)   <https://c",
+        "signal_count": 1,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (whale_monitor) | whale_monitor: Orderbook 60% bid-weighted (bullish)",
         "key_signals": [
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcca $BTC] @ViV_Trade $BTC short setup forming \u2014 Trump mention of $ETH triggered market dump [score: 1.5]",
-            "weight": 1.2
-          },
-          {
-            "source": "news_agent",
-            "signal": "FA World Cup semis + crypto plays (CHZ, Kraken)   <https://cryptobriefing.com/fifa-world-cup-semifinals-crypto-kraken-ch",
-            "weight": 0.98
-          },
           {
             "source": "whale_monitor",
             "signal": "Orderbook 60% bid-weighted (bullish)",
             "weight": 0.4
           }
         ],
-        "timestamp": "2026-07-12T07:45:50.748129+00:00"
+        "timestamp": "2026-07-12T07:55:52.078820+00:00"
       },
       "ETH": {
-        "score": -0.23,
-        "confidence": 0.5,
+        "score": -1.0,
+        "confidence": 0.3,
         "sources": [
-          "news_agent",
           "polymarket"
         ],
-        "signal_count": 3,
+        "signal_count": 2,
         "convergence": false,
         "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | news_agent: crypto plays (CHZ, Kraken)   <https://cryptobriefing.com/fif | polymarket: \"above $60K on July 12\" at 99.9%. July $65K target fading at",
+        "contradictions": 0,
+        "narrative": "Single-source signal (polymarket) | polymarket: \"above $60K on July 12\" at 99.9%. July $65K target fading at",
         "key_signals": [
-          {
-            "source": "news_agent",
-            "signal": "crypto plays (CHZ, Kraken)   <https://cryptobriefing.com/fifa-world-cup-semifinals-crypto-kraken-chiliz/>  \ud83d\udcca **Token Men",
-            "weight": 0.98
-          },
           {
             "source": "polymarket",
             "signal": "\"above $60K on July 12\" at 99.9%. July $65K target fading at 81.5% (-6.0pp). Markets see little chance of reclaiming $75",
@@ -2495,50 +2477,63 @@
             "weight": 0.78
           }
         ],
-        "timestamp": "2026-07-12T07:45:50.748143+00:00"
+        "timestamp": "2026-07-12T07:55:52.078859+00:00"
       },
       "SOL": {
-        "score": 0.0,
-        "confidence": 0.0,
-        "sources": [],
-        "signal_count": 0,
+        "score": 1.0,
+        "confidence": 0.3,
+        "sources": [
+          "x_scanner"
+        ],
+        "signal_count": 3,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "No active signals",
-        "key_signals": [],
-        "timestamp": "2026-07-12T07:45:50.748144+00:00"
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [\ud83d\udd25 $SOL] @OliverKaner (\ud83d\udc4d0 \ud83d\udd040) Disciplined play on RobinBul",
+        "key_signals": [
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udd25 $SOL] @OliverKaner (\ud83d\udc4d0 \ud83d\udd040) Disciplined play on RobinBull. Entry: 71K Exit: 144K \u2014 2.02X in 9m [score: 2.8]",
+            "weight": 2.24
+          },
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udd25 $SOL] @tylerwolf0 (\ud83d\udc4d0 \ud83d\udd040) RobinBull just doubled. ROI: 2.02X from 71.1K to 143.6K in just 9 minutes [score: 2.8]",
+            "weight": 2.24
+          },
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [$SOL] RobinBull 2.02X in 9 minutes on Solana \u2014 multiple accounts reporting same \"alpha\" simultaneously (likely coordi",
+            "weight": 2.24
+          }
+        ],
+        "timestamp": "2026-07-12T07:55:52.078885+00:00"
       },
       "HYPE": {
-        "score": -1.0,
-        "confidence": 0.74,
+        "score": 0.3,
+        "confidence": 0.5,
         "sources": [
           "x_scanner",
           "whale_monitor"
         ],
-        "signal_count": 3,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 0,
-        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83d\udcca $HYPE] @0xcoked (\ud83d\udc4d54 \ud83d\udd045) Bro was full port shorting oil | whale_monitor: Orderbook 23% bid (ask-heavy, bearish)",
+        "signal_count": 2,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 1,
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $HYPE] @Captainprice27 (\ud83d\udc4d0 \ud83d\udd040) Bullish on @TxFlow_L1 \u2014 | whale_monitor: Orderbook 23% bid (ask-heavy, bearish)",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcca $HYPE] @0xcoked (\ud83d\udc4d54 \ud83d\udd045) Bro was full port shorting oil on Hyperliquid during Iran missile barrage [score: 2.3]",
-            "weight": 1.49
+            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @Captainprice27 (\ud83d\udc4d0 \ud83d\udd040) Bullish on @TxFlow_L1 \u2014 250K TPS L1, on-chain CLOB perp DEX, shared liquidity, no b",
+            "weight": 2.0
           },
           {
             "source": "whale_monitor",
             "signal": "Orderbook 23% bid (ask-heavy, bearish)",
             "weight": 1.08
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcca $HYPE] @Clark00xX Whale on Hyperliquid went MORE short at $63,783, $3.5k median size [score: 1.5]",
-            "weight": 0.98
           }
         ],
-        "timestamp": "2026-07-12T07:45:50.748154+00:00"
+        "timestamp": "2026-07-12T07:55:52.078904+00:00"
       }
     },
     "ai_history": [
@@ -2598,16 +2593,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-11T16:30:05.743717+00:00",
-        "v": 4986.18,
-        "p": -0.28
-      },
-      {
-        "t": "2026-07-11T16:35:06.381497+00:00",
-        "v": 4983.37,
-        "p": -0.33
-      },
       {
         "t": "2026-07-11T16:40:06.965305+00:00",
         "v": 4972.43,
@@ -3597,6 +3582,16 @@
         "t": "2026-07-12T07:45:50.886969+00:00",
         "v": 4915.33,
         "p": -1.69
+      },
+      {
+        "t": "2026-07-12T07:50:51.777366+00:00",
+        "v": 4914.28,
+        "p": -1.71
+      },
+      {
+        "t": "2026-07-12T07:55:52.206345+00:00",
+        "v": 4915.52,
+        "p": -1.69
       }
     ]
   },
@@ -3685,7 +3680,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "15:50  up 26 days,  5:51, 2 users, load averages: 1.92 2.16 2.22",
+    "uptime": "16:00  up 26 days,  6:01, 2 users, load averages: 1.81 2.01 2.12",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 4281151a\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 2211 commits behind \u2014 run 'hermes update'"
   },
