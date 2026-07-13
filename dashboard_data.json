@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-13T20:40:08+08:00",
+  "collected_at": "2026-07-13T20:50:09+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -13,7 +13,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4388
+        "completed": 4389
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -23,7 +23,7 @@
       "no_agent": false,
       "deliver": "discord:1480959499060645950",
       "next_run": "2026-07-13T21:05:00+08:00",
-      "last_run": "2026-07-13T20:16:51.442133+08:00",
+      "last_run": "2026-07-13T20:46:13.947921+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6041
+        "completed": 6042
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,7 +119,7 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-07-13T21:00:00+08:00",
-      "last_run": "2026-07-13T20:22:51.167082+08:00",
+      "last_run": "2026-07-13T20:42:40.080478+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8097
+        "completed": 8098
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -214,8 +214,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-07-13T20:48:00+08:00",
-      "last_run": "2026-07-13T20:33:57.206464+08:00",
+      "next_run": "2026-07-13T21:03:00+08:00",
+      "last_run": "2026-07-13T20:48:33.230817+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4691
+        "completed": 4693
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-13T20:45:00+08:00",
-      "last_run": "2026-07-13T20:35:13.697655+08:00",
+      "next_run": "2026-07-13T20:55:00+08:00",
+      "last_run": "2026-07-13T20:45:14.188814+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1618
+        "completed": 1619
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T20:50:00+08:00",
-      "last_run": "2026-07-13T20:30:10.005371+08:00",
+      "next_run": "2026-07-13T21:00:00+08:00",
+      "last_run": "2026-07-13T20:40:10.845593+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 890
+        "completed": 891
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1046,8 +1046,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-13T20:45:00+08:00",
-      "last_run": "2026-07-13T20:30:45.428495+08:00",
+      "next_run": "2026-07-13T21:00:00+08:00",
+      "last_run": "2026-07-13T20:45:29.470080+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1297
+        "completed": 1298
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T20:50:00+08:00",
-      "last_run": "2026-07-13T20:30:12.074189+08:00",
+      "next_run": "2026-07-13T21:00:00+08:00",
+      "last_run": "2026-07-13T20:40:13.067497+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1173
+        "completed": 1174
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T20:50:00+08:00",
-      "last_run": "2026-07-13T20:30:08.577337+08:00",
+      "next_run": "2026-07-13T21:00:00+08:00",
+      "last_run": "2026-07-13T20:40:09.463938+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2285
+        "completed": 2288
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-13T20:45:00+08:00",
-      "last_run": "2026-07-13T20:35:08.097445+08:00",
+      "next_run": "2026-07-13T20:55:00+08:00",
+      "last_run": "2026-07-13T20:50:09.073189+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1277,7 +1277,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 762
+        "completed": 763
       },
       "model": null,
       "provider": null,
@@ -1286,8 +1286,8 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T20:45:00+08:00",
-      "last_run": "2026-07-13T20:30:07.850351+08:00",
+      "next_run": "2026-07-13T21:00:00+08:00",
+      "last_run": "2026-07-13T20:45:08.720061+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1484,20 +1484,20 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-13T12:35:08.188479+00:00",
+    "last_update": "2026-07-13T12:45:08.797974+00:00",
     "portfolio": {
-      "value": 4846.67,
+      "value": 4848.09,
       "capital": 4865.04,
       "initial": 5000.0,
-      "pnl": -153.33,
-      "pnl_pct": -3.07,
+      "pnl": -151.91,
+      "pnl_pct": -3.04,
       "open_positions": 1
     },
     "prices": {
-      "BTC": 62724.5,
-      "ETH": 1774.85,
-      "SOL": 75.9285,
-      "HYPE": 64.239
+      "BTC": 62616.5,
+      "ETH": 1770.65,
+      "SOL": 75.8085,
+      "HYPE": 64.3075
     },
     "stats": {
       "total_trades": 58,
@@ -1514,17 +1514,17 @@
       "HYPE": {
         "direction": "LONG",
         "entry_price": 65.1215,
-        "current_price": 64.239,
+        "current_price": 64.3075,
         "size": 20.758560428369172,
-        "unrealized_pnl": -18.37,
-        "unrealized_pnl_pct": -1.36,
+        "unrealized_pnl": -16.95,
+        "unrealized_pnl_pct": -1.25,
         "stop_loss": 62.77725,
         "take_profit": 69.81,
         "strategy": "trend",
         "entry_time": "2026-07-13T09:45:52.176123+00:00",
-        "duration_hours": 2.8,
+        "duration_hours": 3.0,
         "funding_rate": 0.00125,
-        "unrealized_funding": 0.047
+        "unrealized_funding": 0.0499
       }
     },
     "closed_trades": [
@@ -2440,96 +2440,62 @@
     },
     "sentiment": {
       "BTC": {
-        "score": -0.43,
-        "confidence": 0.5,
+        "score": 1.0,
+        "confidence": 0.3,
         "sources": [
-          "news_agent",
           "polymarket"
         ],
-        "signal_count": 6,
+        "signal_count": 2,
         "convergence": false,
         "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | news_agent: ernight \u2022 `HYPE` Hyperliquid RWA markets hit record $4B open | polymarket: \u2014 $166K vol \u2022 Fed hike by Oct: 55.0% \u25b25.5pp | Full-year hike",
+        "contradictions": 0,
+        "narrative": "Single-source signal (polymarket) | polymarket: \u2014 $166K vol \u2022 Fed hike by Oct: 55.0% \u25b25.5pp | Full-year hike",
         "key_signals": [
           {
-            "source": "news_agent",
-            "signal": "ernight \u2022 `HYPE` Hyperliquid RWA markets hit record $4B open interest \u2022 `SOL` SBI Holdings pivots blockchain initiative ",
-            "weight": 0.98
+            "source": "polymarket",
+            "signal": "\u2014 $166K vol \u2022 Fed hike by Oct: 55.0% \u25b25.5pp | Full-year hike: 58.5% \u25bc5.0pp \u2192 Markets split: July likely unchanged, but g",
+            "weight": 0.78
           },
           {
-            "source": "news_agent",
-            "signal": "HYPE` Hyperliquid RWA markets hit record $4B open interest \u2022 `SOL` SBI Holdings pivots blockchain initiative to Solana f",
-            "weight": 0.98
-          },
-          {
-            "source": "news_agent",
-            "signal": "\u2022 `SOL` SBI Holdings pivots blockchain initiative to Solana for tokenization \u2022 `BTC` `ETH` BTC & ETH ETFs flip green aft",
-            "weight": 0.98
+            "source": "polymarket",
+            "signal": "today: 99.8% (above support) \u2022 Dip to $1,200 in July: 3.2% \u25b20.9pp  **No dramatic shifts (\u226510pp).** Largest non-expiry mo",
+            "weight": 0.78
           }
         ],
-        "timestamp": "2026-07-13T12:35:08.102885+00:00"
+        "timestamp": "2026-07-13T12:45:08.715126+00:00"
       },
       "ETH": {
-        "score": 0.39,
-        "confidence": 0.84,
+        "score": 1.0,
+        "confidence": 0.3,
         "sources": [
-          "whale_monitor",
-          "news_agent",
           "polymarket"
         ],
-        "signal_count": 6,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | whale_monitor: Orderbook 81% bid-weighted (bullish) | news_agent: t \u2022 `HYPE` Hyperliquid RWA markets hit record $4B open inter | polymarket: ice Targets \ud83d\udcc5** \u2022 Dip to $55K by Dec 31: 62.5% \u25b22.0pp \u2014 $29K",
+        "signal_count": 3,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (polymarket) | polymarket: ice Targets \ud83d\udcc5** \u2022 Dip to $55K by Dec 31: 62.5% \u25b22.0pp \u2014 $29K",
         "key_signals": [
           {
-            "source": "whale_monitor",
-            "signal": "Orderbook 81% bid-weighted (bullish)",
-            "weight": 1.24
+            "source": "polymarket",
+            "signal": "ice Targets \ud83d\udcc5** \u2022 Dip to $55K by Dec 31: 62.5% \u25b22.0pp \u2014 $29K vol \u2022 Dip to $45K by Dec 31: 29.5% \u2014 $49K vol \u2022 ATH by Dec ",
+            "weight": 0.96
           },
           {
-            "source": "news_agent",
-            "signal": "t \u2022 `HYPE` Hyperliquid RWA markets hit record $4B open interest \u2022 `SOL` SBI Holdings pivots blockchain initiative to Sol",
-            "weight": 0.98
+            "source": "polymarket",
+            "signal": "p to $45K by Dec 31: 29.5% \u2014 $49K vol \u2022 ATH by Dec 31: 5.1% \u25bc0.4pp \u2014 $12K vol  **ETH Price Targets \ud83d\udcc5** \u2022 Reach $2K in Ju",
+            "weight": 0.96
           },
           {
-            "source": "news_agent",
-            "signal": "Hyperliquid RWA markets hit record $4B open interest \u2022 `SOL` SBI Holdings pivots blockchain initiative to Solana for tok",
-            "weight": 0.98
+            "source": "polymarket",
+            "signal": "ay: 99.8% (above support) \u2022 Dip to $1,200 in July: 3.2% \u25b20.9pp  **No dramatic shifts (\u226510pp).** Largest non-expiry moves",
+            "weight": 0.78
           }
         ],
-        "timestamp": "2026-07-13T12:35:08.102901+00:00"
+        "timestamp": "2026-07-13T12:45:08.715139+00:00"
       },
       "SOL": {
         "score": -1.0,
-        "confidence": 0.74,
-        "sources": [
-          "whale_monitor",
-          "news_agent"
-        ],
-        "signal_count": 2,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 0,
-        "narrative": "\ud83d\udcc9 2-source bearish convergence | whale_monitor: Orderbook 27% bid (ask-heavy, bearish) | news_agent: ABLE** \u2022 `BTC` Bitcoin ETFs see net inflows as crypto market",
-        "key_signals": [
-          {
-            "source": "news_agent",
-            "signal": "ABLE** \u2022 `BTC` Bitcoin ETFs see net inflows as crypto markets decline 1-3% overnight \u2022 `HYPE` Hyperliquid RWA markets hi",
-            "weight": 0.98
-          },
-          {
-            "source": "whale_monitor",
-            "signal": "Orderbook 27% bid (ask-heavy, bearish)",
-            "weight": 0.92
-          }
-        ],
-        "timestamp": "2026-07-13T12:35:08.102910+00:00"
-      },
-      "HYPE": {
-        "score": 1.0,
         "confidence": 0.3,
         "sources": [
           "whale_monitor"
@@ -2538,15 +2504,35 @@
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "Single-source signal (whale_monitor) | whale_monitor: Orderbook 84% bid-weighted (bullish)",
+        "narrative": "Single-source signal (whale_monitor) | whale_monitor: Orderbook 40% bid (ask-heavy, bearish)",
         "key_signals": [
           {
             "source": "whale_monitor",
-            "signal": "Orderbook 84% bid-weighted (bullish)",
-            "weight": 1.36
+            "signal": "Orderbook 40% bid (ask-heavy, bearish)",
+            "weight": 0.4
           }
         ],
-        "timestamp": "2026-07-13T12:35:08.102915+00:00"
+        "timestamp": "2026-07-13T12:45:08.715146+00:00"
+      },
+      "HYPE": {
+        "score": -1.0,
+        "confidence": 0.3,
+        "sources": [
+          "whale_monitor"
+        ],
+        "signal_count": 1,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (whale_monitor) | whale_monitor: Orderbook 33% bid (ask-heavy, bearish)",
+        "key_signals": [
+          {
+            "source": "whale_monitor",
+            "signal": "Orderbook 33% bid (ask-heavy, bearish)",
+            "weight": 0.68
+          }
+        ],
+        "timestamp": "2026-07-13T12:45:08.715152+00:00"
       }
     },
     "ai_history": [
@@ -2606,16 +2592,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-12T21:10:25.602482+00:00",
-        "v": 4936.01,
-        "p": -1.28
-      },
-      {
-        "t": "2026-07-12T21:15:26.293634+00:00",
-        "v": 4933.55,
-        "p": -1.33
-      },
       {
         "t": "2026-07-12T21:20:27.197244+00:00",
         "v": 4926.92,
@@ -3605,6 +3581,16 @@
         "t": "2026-07-13T12:35:08.188479+00:00",
         "v": 4846.67,
         "p": -3.07
+      },
+      {
+        "t": "2026-07-13T12:40:08.613883+00:00",
+        "v": 4847.24,
+        "p": -3.06
+      },
+      {
+        "t": "2026-07-13T12:45:08.797974+00:00",
+        "v": 4848.09,
+        "p": -3.04
       }
     ]
   },
@@ -3693,7 +3679,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "20:40  up 27 days, 10:40, 2 users, load averages: 4.48 3.71 3.22",
+    "uptime": "20:50  up 27 days, 10:50, 2 users, load averages: 2.12 2.56 2.83",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream f96b2e6e\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 2312 commits behind \u2014 run 'hermes update'"
   },
