@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-13T16:10:39+08:00",
+  "collected_at": "2026-07-13T16:20:41+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -13,7 +13,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4379
+        "completed": 4380
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -23,7 +23,7 @@
       "no_agent": false,
       "deliver": "discord:1480959499060645950",
       "next_run": "2026-07-13T16:35:00+08:00",
-      "last_run": "2026-07-13T15:49:02.203933+08:00",
+      "last_run": "2026-07-13T16:19:50.458189+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-07-13T16:20:00+08:00",
+      "next_run": "2026-07-13T16:40:00+08:00",
       "last_run": "2026-07-13T16:03:16.989199+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8079
+        "completed": 8080
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -214,8 +214,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-07-13T16:18:00+08:00",
-      "last_run": "2026-07-13T16:04:21.507772+08:00",
+      "next_run": "2026-07-13T16:33:00+08:00",
+      "last_run": "2026-07-13T16:18:59.061100+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4637
+        "completed": 4639
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-13T16:15:00+08:00",
-      "last_run": "2026-07-13T16:05:44.440925+08:00",
+      "next_run": "2026-07-13T16:25:00+08:00",
+      "last_run": "2026-07-13T16:15:45.102614+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1591
+        "completed": 1592
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T16:20:00+08:00",
-      "last_run": "2026-07-13T16:00:41.387465+08:00",
+      "next_run": "2026-07-13T16:30:00+08:00",
+      "last_run": "2026-07-13T16:10:42.948798+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 872
+        "completed": 873
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1046,8 +1046,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-13T16:15:00+08:00",
-      "last_run": "2026-07-13T16:02:06.163427+08:00",
+      "next_run": "2026-07-13T16:30:00+08:00",
+      "last_run": "2026-07-13T16:17:13.171471+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1270
+        "completed": 1271
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T16:20:00+08:00",
-      "last_run": "2026-07-13T16:00:43.155595+08:00",
+      "next_run": "2026-07-13T16:30:00+08:00",
+      "last_run": "2026-07-13T16:10:44.657333+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1146
+        "completed": 1147
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T16:20:00+08:00",
-      "last_run": "2026-07-13T16:00:40.638114+08:00",
+      "next_run": "2026-07-13T16:30:00+08:00",
+      "last_run": "2026-07-13T16:10:41.482688+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2232
+        "completed": 2233
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-13T16:15:00+08:00",
-      "last_run": "2026-07-13T16:10:39.893183+08:00",
+      "next_run": "2026-07-13T16:25:00+08:00",
+      "last_run": "2026-07-13T16:15:40.504284+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1277,7 +1277,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 744
+        "completed": 745
       },
       "model": null,
       "provider": null,
@@ -1286,8 +1286,8 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-13T16:15:00+08:00",
-      "last_run": "2026-07-13T16:00:38.979945+08:00",
+      "next_run": "2026-07-13T16:30:00+08:00",
+      "last_run": "2026-07-13T16:15:40.526145+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1484,7 +1484,7 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-13T08:05:39.700904+00:00",
+    "last_update": "2026-07-13T08:15:40.603102+00:00",
     "portfolio": {
       "value": 4866.33,
       "capital": 4866.33,
@@ -1494,10 +1494,10 @@
       "open_positions": 0
     },
     "prices": {
-      "BTC": 63016.5,
-      "ETH": 1785.75,
-      "SOL": 76.4075,
-      "HYPE": 65.4215
+      "BTC": 63053.5,
+      "ETH": 1786.65,
+      "SOL": 76.4965,
+      "HYPE": 65.4535
     },
     "stats": {
       "total_trades": 58,
@@ -2424,49 +2424,48 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 1.0,
-        "confidence": 0.74,
+        "score": -0.11,
+        "confidence": 0.5,
         "sources": [
-          "polymarket",
-          "oi_funding"
+          "news_agent",
+          "polymarket"
         ],
-        "signal_count": 3,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 0,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | polymarket: \u2014 $166K vol \u2022 Fed hike by Oct: 55.0% \u25b25.5pp | Full-year hike | oi_funding: OI +49.0% 1h, funding 0.0013%",
+        "signal_count": 4,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 1,
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | news_agent: utes in Hormuz NATO allies prepare for potential Russia thre | polymarket: \u2014 $166K vol \u2022 Fed hike by Oct: 55.0% \u25b25.5pp | Full-year hike",
         "key_signals": [
           {
-            "source": "oi_funding",
-            "signal": "OI +49.0% 1h, funding 0.0013%",
-            "weight": 1.44
+            "source": "news_agent",
+            "signal": "utes in Hormuz NATO allies prepare for potential Russia threat  **\ud83d\udfe1 CRYPTO** **HYPE** \u2014 Hyperliquid RWA open interest hi",
+            "weight": 0.98
+          },
+          {
+            "source": "news_agent",
+            "signal": "prepare for potential Russia threat  **\ud83d\udfe1 CRYPTO** **HYPE** \u2014 Hyperliquid RWA open interest hits $4B, total peaks at $11B",
+            "weight": 0.98
           },
           {
             "source": "polymarket",
             "signal": "\u2014 $166K vol \u2022 Fed hike by Oct: 55.0% \u25b25.5pp | Full-year hike: 58.5% \u25bc5.0pp \u2192 Markets split: July likely unchanged, but g",
             "weight": 0.78
-          },
-          {
-            "source": "polymarket",
-            "signal": "today: 99.8% (above support) \u2022 Dip to $1,200 in July: 3.2% \u25b20.9pp  **No dramatic shifts (\u226510pp).** Largest non-expiry mo",
-            "weight": 0.78
           }
         ],
-        "timestamp": "2026-07-13T08:05:39.478189+00:00"
+        "timestamp": "2026-07-13T08:15:40.518053+00:00"
       },
       "ETH": {
         "score": 1.0,
-        "confidence": 1.0,
+        "confidence": 0.6,
         "sources": [
           "x_scanner",
-          "polymarket",
-          "oi_funding"
+          "polymarket"
         ],
-        "signal_count": 6,
-        "convergence": true,
-        "convergence_strength": 3,
+        "signal_count": 5,
+        "convergence": false,
+        "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "\ud83d\udcc8 3-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @cleverhandeln (\ud83d\udc4d16) Huge week ahead: CPI Tuesday | polymarket: ice Targets \ud83d\udcc5** \u2022 Dip to $55K by Dec 31: 62.5% \u25b22.0pp \u2014 $29K | oi_funding: OI +227.0% 1h, funding 0.0013%",
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @cleverhandeln (\ud83d\udc4d16) Huge week ahead: CPI Tuesday | polymarket: ice Targets \ud83d\udcc5** \u2022 Dip to $55K by Dec 31: 62.5% \u25b22.0pp \u2014 $29K",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2479,46 +2478,37 @@
             "weight": 1.95
           },
           {
-            "source": "oi_funding",
-            "signal": "OI +227.0% 1h, funding 0.0013%",
-            "weight": 1.44
+            "source": "polymarket",
+            "signal": "ice Targets \ud83d\udcc5** \u2022 Dip to $55K by Dec 31: 62.5% \u25b22.0pp \u2014 $29K vol \u2022 Dip to $45K by Dec 31: 29.5% \u2014 $49K vol \u2022 ATH by Dec ",
+            "weight": 0.96
           }
         ],
-        "timestamp": "2026-07-13T08:05:39.478210+00:00"
+        "timestamp": "2026-07-13T08:15:40.518070+00:00"
       },
       "SOL": {
-        "score": 1.0,
-        "confidence": 0.3,
-        "sources": [
-          "oi_funding"
-        ],
-        "signal_count": 1,
+        "score": 0.0,
+        "confidence": 0.0,
+        "sources": [],
+        "signal_count": 0,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "Single-source signal (oi_funding) | oi_funding: OI +22.0% 1h, funding 0.0010%",
-        "key_signals": [
-          {
-            "source": "oi_funding",
-            "signal": "OI +22.0% 1h, funding 0.0010%",
-            "weight": 1.44
-          }
-        ],
-        "timestamp": "2026-07-13T08:05:39.478217+00:00"
+        "narrative": "No active signals",
+        "key_signals": [],
+        "timestamp": "2026-07-13T08:15:40.518074+00:00"
       },
       "HYPE": {
-        "score": -0.16,
-        "confidence": 0.84,
+        "score": -1.0,
+        "confidence": 0.6,
         "sources": [
           "x_scanner",
-          "news_agent",
-          "oi_funding"
+          "news_agent"
         ],
-        "signal_count": 4,
-        "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83c\udf0a $HYPE] @Eveningtraders Whale went ALL IN on $HYPE at $4 | news_agent: com/european-stocks-fall-amid-renewed-us-iran-tensions/  \ud83d\udfe2 * | oi_funding: OI +25.0% 1h, funding 0.0013%",
+        "signal_count": 3,
+        "convergence": false,
+        "convergence_strength": 0,
+        "contradictions": 0,
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [\ud83c\udf0a $HYPE] @Eveningtraders Whale went ALL IN on $HYPE at $4 | news_agent: uz from becoming a threat Iran warns ships at risk on US-rec",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2531,12 +2521,12 @@
             "weight": 1.6
           },
           {
-            "source": "oi_funding",
-            "signal": "OI +25.0% 1h, funding 0.0013%",
-            "weight": 1.44
+            "source": "news_agent",
+            "signal": "uz from becoming a threat Iran warns ships at risk on US-recommended routes in Hormuz NATO allies prepare for potential ",
+            "weight": 0.98
           }
         ],
-        "timestamp": "2026-07-13T08:05:39.478226+00:00"
+        "timestamp": "2026-07-13T08:15:40.518083+00:00"
       }
     },
     "ai_history": [
@@ -2596,16 +2586,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-12T16:45:55.957175+00:00",
-        "v": 4945.14,
-        "p": -1.1
-      },
-      {
-        "t": "2026-07-12T16:50:56.747113+00:00",
-        "v": 4950.08,
-        "p": -1.0
-      },
       {
         "t": "2026-07-12T16:55:57.418644+00:00",
         "v": 4944.74,
@@ -3595,6 +3575,16 @@
         "t": "2026-07-13T08:05:39.700904+00:00",
         "v": 4866.33,
         "p": -2.67
+      },
+      {
+        "t": "2026-07-13T08:10:40.256482+00:00",
+        "v": 4866.33,
+        "p": -2.67
+      },
+      {
+        "t": "2026-07-13T08:15:40.603102+00:00",
+        "v": 4866.33,
+        "p": -2.67
       }
     ]
   },
@@ -3683,7 +3673,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "16:10  up 27 days,  6:11, 2 users, load averages: 3.03 2.69 2.53",
+    "uptime": "16:20  up 27 days,  6:21, 2 users, load averages: 2.39 2.53 2.54",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream e589b739\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 2287 commits behind \u2014 run 'hermes update'"
   },
