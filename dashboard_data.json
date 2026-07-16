@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-16T23:20:17+08:00",
+  "collected_at": "2026-07-16T23:30:19+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -45,7 +45,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2310
+        "completed": 2311
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -54,8 +54,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-07-16T23:25:00+08:00",
-      "last_run": "2026-07-16T22:26:00.179876+08:00",
+      "next_run": "2026-07-17T00:25:00+08:00",
+      "last_run": "2026-07-16T23:25:40.215309+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6265
+        "completed": 6266
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,7 +119,7 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-07-16T23:40:00+08:00",
-      "last_run": "2026-07-16T23:02:55.036273+08:00",
+      "last_run": "2026-07-16T23:21:44.643161+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6131
+        "completed": 6132
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-16T23:22:00+08:00",
-      "last_run": "2026-07-16T23:08:57.421960+08:00",
+      "next_run": "2026-07-16T23:37:00+08:00",
+      "last_run": "2026-07-16T23:24:52.602867+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5587
+        "completed": 5589
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-16T23:25:00+08:00",
-      "last_run": "2026-07-16T23:15:22.913387+08:00",
+      "next_run": "2026-07-16T23:35:00+08:00",
+      "last_run": "2026-07-16T23:25:24.388095+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2066
+        "completed": 2067
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-16T23:30:00+08:00",
-      "last_run": "2026-07-16T23:10:20.049170+08:00",
+      "next_run": "2026-07-16T23:40:00+08:00",
+      "last_run": "2026-07-16T23:20:20.289905+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-16T23:30:00+08:00",
+      "next_run": "2026-07-16T23:45:00+08:00",
       "last_run": "2026-07-16T23:15:39.415758+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1745
+        "completed": 1746
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-16T23:30:00+08:00",
-      "last_run": "2026-07-16T23:10:22.126114+08:00",
+      "next_run": "2026-07-16T23:40:00+08:00",
+      "last_run": "2026-07-16T23:20:22.658747+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1621
+        "completed": 1622
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-16T23:30:00+08:00",
-      "last_run": "2026-07-16T23:10:18.862169+08:00",
+      "next_run": "2026-07-16T23:40:00+08:00",
+      "last_run": "2026-07-16T23:20:18.880839+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3181
+        "completed": 3183
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-16T23:25:00+08:00",
-      "last_run": "2026-07-16T23:15:17.238640+08:00",
+      "next_run": "2026-07-16T23:35:00+08:00",
+      "last_run": "2026-07-16T23:25:18.715417+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-16T23:30:00+08:00",
+      "next_run": "2026-07-16T23:45:00+08:00",
       "last_run": "2026-07-16T23:15:17.263473+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1484,7 +1484,7 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-16T15:15:17.383469+00:00",
+    "last_update": "2026-07-16T15:25:18.652907+00:00",
     "portfolio": {
       "value": 4970.06,
       "capital": 4970.06,
@@ -1494,10 +1494,10 @@
       "open_positions": 0
     },
     "prices": {
-      "BTC": 64333.5,
-      "ETH": 1874.55,
-      "SOL": 76.0155,
-      "HYPE": 65.2365
+      "BTC": 64683.5,
+      "ETH": 1883.95,
+      "SOL": 76.407,
+      "HYPE": 65.3575
     },
     "stats": {
       "total_trades": 72,
@@ -2424,104 +2424,103 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.92,
+        "score": 1.0,
         "confidence": 0.84,
         "sources": [
           "x_scanner",
-          "polymarket",
-          "oi_funding"
+          "whale_monitor",
+          "polymarket"
         ],
-        "signal_count": 4,
+        "signal_count": 6,
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $BTC] @Cointelegraph (\ud83d\udc4d10 \ud83d\udd045) Same $TKNZ ETF launch fro | polymarket: ** Fed Pause-Pause-Pause strengthened +11pp \u2014 markets increa | oi_funding: OI +43.0% 1h, funding 0.0013%",
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $BTC] @Cointelegraph (\ud83d\udc4d10 \ud83d\udd045) T. Rowe Price launches Ac | whale_monitor: Orderbook 67% bid-weighted (bullish) | polymarket: ** Fed Pause-Pause-Pause strengthened +11pp \u2014 markets increa",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $BTC] @Cointelegraph (\ud83d\udc4d10 \ud83d\udd045) Same $TKNZ ETF launch from T. Rowe Price \u2014 multi-asset crypto exposure for boomers [s",
+            "signal": "\u2022 [\ud83d\udcc8 $BTC] @Cointelegraph (\ud83d\udc4d10 \ud83d\udd045) T. Rowe Price launches Active Crypto ETF ($TKNZ) \u2014 multi-asset crypto exposure [score",
             "weight": 4.08
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $BTC] @xbtcryptowrld (\ud83d\udc4d0 \ud83d\udd040) $BTC supply-squeeze story gets weirder \u2014 exchange reserves still near ATH, maybe shor",
-            "weight": 1.62
+            "signal": "\u2022 [\ud83c\udfd7\ufe0f $BTC] @ItsOwlPrints (\ud83d\udc4d50 \ud83d\udd0438) $50 USDT Giveaway \u2014 Follow, Like, Repost, Comment $BTC [score: 4.2]",
+            "weight": 2.73
           },
           {
-            "source": "oi_funding",
-            "signal": "OI +43.0% 1h, funding 0.0013%",
-            "weight": 1.44
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83c\udfd7\ufe0f $BTC] @xbtcryptowrld (\ud83d\udc4d0 \ud83d\udd040) $BTC supply-squeeze \u2014 exchange reserves still near ATH [score: 2.5]",
+            "weight": 2.0
           }
         ],
-        "timestamp": "2026-07-16T15:15:17.245975+00:00"
+        "timestamp": "2026-07-16T15:25:18.532344+00:00"
       },
       "ETH": {
-        "score": 0.56,
+        "score": 0.8,
         "confidence": 0.84,
         "sources": [
           "x_scanner",
           "polymarket",
           "oi_funding"
         ],
-        "signal_count": 9,
+        "signal_count": 6,
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [Alpha $ETH/$BTC/$SOL/$HYPE] T. Rowe Price Active Crypto E | polymarket: **  **BTC Spot Implied: ~$63K** \u2014 Above $62K: 98.8% \u2713 | Abov | oi_funding: OI +20.0% 1h, funding 0.0013%",
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @Cointelegraph (\ud83d\udc4d13 \ud83d\udd047) T. Rowe Price launches Ac | polymarket: **  **BTC Spot Implied: ~$63K** \u2014 Above $62K: 98.8% \u2713 | Abov | oi_funding: OI +24.0% 1h, funding 0.0013%",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [Alpha $ETH/$BTC/$SOL/$HYPE] T. Rowe Price Active Crypto ETF ($TKNZ) launched \u2014 institutional inflow channel for $HYPE",
-            "weight": 5.13
-          },
-          {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $ETH] @Cointelegraph (\ud83d\udc4d13 \ud83d\udd047) T. Rowe Price launches Active Crypto ETF ($TKNZ) \u2014 exposure to $BTC, $ETH, $XRP, $SOL",
+            "signal": "\u2022 [\ud83d\udcc8 $ETH] @Cointelegraph (\ud83d\udc4d13 \ud83d\udd047) T. Rowe Price launches Active Crypto ETF ($TKNZ) \u2014 exposure to BTC, ETH, XRP, SOL, HY",
             "weight": 4.32
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc9 $ETH] @CryptoBullet1 (\ud83d\udc4d94 \ud83d\udd0410) $ETH facing strong resistance \u2014 don't forget we're still in a Bear Market [score: 3.",
-            "weight": 2.56
+            "signal": "\u2022 [\ud83d\udcc8 $ETH] @AshCrypto (\ud83d\udc4d162 \ud83d\udd0420) $ETH parabolic when Russell 2000 hits ATH \u2014 historical correlation [score: 3.5]",
+            "weight": 2.27
+          },
+          {
+            "source": "oi_funding",
+            "signal": "OI +24.0% 1h, funding 0.0013%",
+            "weight": 1.44
           }
         ],
-        "timestamp": "2026-07-16T15:15:17.245994+00:00"
+        "timestamp": "2026-07-16T15:25:18.532364+00:00"
       },
       "SOL": {
-        "score": -0.65,
-        "confidence": 0.9,
+        "score": -1.0,
+        "confidence": 1.0,
         "sources": [
           "whale_monitor",
-          "news_agent",
           "polymarket",
           "oi_funding"
         ],
-        "signal_count": 4,
+        "signal_count": 3,
         "convergence": true,
         "convergence_strength": 3,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc9 3-source bearish convergence | whale_monitor: Orderbook 74% bid-weighted (bullish) | news_agent: oin platform targeting 15K banks & fintechs \u2022 E\\*TRADE compl | polymarket: rkets increasingly confident on sustained no-change stance t",
+        "contradictions": 0,
+        "narrative": "\ud83d\udcc9 3-source bearish convergence | whale_monitor: Orderbook 20% bid (ask-heavy, bearish) | polymarket: rkets increasingly confident on sustained no-change stance t | oi_funding: OI -50.0% 1h",
         "key_signals": [
           {
             "source": "oi_funding",
-            "signal": "OI -68.0% 1h",
+            "signal": "OI -50.0% 1h",
             "weight": 1.44
           },
           {
-            "source": "news_agent",
-            "signal": "oin platform targeting 15K banks & fintechs \u2022 E\\*TRADE completes BTC, ETH, SOL spot trading rollout \u2022 Tether moves $500M",
+            "source": "whale_monitor",
+            "signal": "Orderbook 20% bid (ask-heavy, bearish)",
             "weight": 1.2
           },
           {
-            "source": "whale_monitor",
-            "signal": "Orderbook 74% bid-weighted (bullish)",
-            "weight": 0.96
+            "source": "polymarket",
+            "signal": "rkets increasingly confident on sustained no-change stance through Q3.  **Summary:** Bearish drift on BTC/ETH July targe",
+            "weight": 0.78
           }
         ],
-        "timestamp": "2026-07-16T15:15:17.246005+00:00"
+        "timestamp": "2026-07-16T15:25:18.532374+00:00"
       },
       "HYPE": {
-        "score": 0.83,
+        "score": 0.76,
         "confidence": 0.84,
         "sources": [
           "x_scanner",
@@ -2532,25 +2531,25 @@
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $HYPE] @whale_alert (\ud83d\udc4d43 \ud83d\udd042) Hyperliquid EVM added to  | whale_monitor: Orderbook 63% bid-weighted (bullish) | oi_funding: OI -65.0% 1h",
+        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $HYPE] @whale_alert (\ud83d\udc4d43 \ud83d\udd042) Whale Alert adds Hyperliq | whale_monitor: Orderbook 36% bid (ask-heavy, bearish) | oi_funding: OI -71.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @whale_alert (\ud83d\udc4d43 \ud83d\udd042) Hyperliquid EVM added to Whale Alert \u2014 big $HYPE transfers now reported [score: 7.0]",
+            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @whale_alert (\ud83d\udc4d43 \ud83d\udd042) Whale Alert adds Hyperliquid EVM tracking \u2014 $HYPE & stablecoin transfers now reported",
             "weight": 4.55
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @Cointelegraph (\ud83d\udc4d8 \ud83d\udd043) $HYPE included in T. Rowe Price Active Crypto ETF [score: 4.8]",
-            "weight": 3.12
+            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @Cointelegraph (\ud83d\udc4d8 \ud83d\udd043) T. Rowe Price ETF ($TKNZ) includes $HYPE \u2014 institutional milestone [score: 4.8]",
+            "weight": 3.84
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83c\udfd7\ufe0f $HYPE] @whale_alert (\ud83d\udc4d0 \ud83d\udd040) Hyperliquid Whale Alert API/websocket data coming soon [score: 4.0]",
+            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @whale_alert (\ud83d\udc4d0 \ud83d\udd040) Hyperliquid Whale Alert API/websocket data coming soon [score: 4.0]",
             "weight": 2.6
           }
         ],
-        "timestamp": "2026-07-16T15:15:17.246015+00:00"
+        "timestamp": "2026-07-16T15:25:18.532384+00:00"
       }
     },
     "ai_history": [
@@ -2610,16 +2609,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-15T23:55:37.685989+00:00",
-        "v": 4998.97,
-        "p": -0.02
-      },
-      {
-        "t": "2026-07-16T00:00:38.399814+00:00",
-        "v": 4998.97,
-        "p": -0.02
-      },
       {
         "t": "2026-07-16T00:02:15.194178+00:00",
         "v": 4998.97,
@@ -3609,6 +3598,16 @@
         "t": "2026-07-16T15:15:17.383469+00:00",
         "v": 4970.06,
         "p": -0.6
+      },
+      {
+        "t": "2026-07-16T15:20:17.964424+00:00",
+        "v": 4970.06,
+        "p": -0.6
+      },
+      {
+        "t": "2026-07-16T15:25:18.652907+00:00",
+        "v": 4970.06,
+        "p": -0.6
       }
     ]
   },
@@ -3697,7 +3696,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "23:20  up 30 days, 13:21, 2 users, load averages: 2.29 2.59 2.81",
+    "uptime": "23:30  up 30 days, 13:31, 2 users, load averages: 2.05 2.27 2.53",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 7a78342a\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 2796 commits behind \u2014 run 'hermes update'"
   },
