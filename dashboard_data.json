@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-18T17:50:52+08:00",
+  "collected_at": "2026-07-18T18:00:55+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-07-18T18:00:00+08:00",
+      "next_run": "2026-07-18T18:20:00+08:00",
       "last_run": "2026-07-18T17:43:55.382362+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6301
+        "completed": 6302
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-18T17:52:00+08:00",
-      "last_run": "2026-07-18T17:38:46.747544+08:00",
+      "next_run": "2026-07-18T18:07:00+08:00",
+      "last_run": "2026-07-18T17:54:23.192403+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -575,7 +575,7 @@
       "script": "market_analyst.sh",
       "no_agent": true,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-07-18T18:00:00+08:00",
+      "next_run": "2026-07-18T20:00:00+08:00",
       "last_run": "2026-07-18T16:00:43.885602+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -703,7 +703,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 141
+        "completed": 142
       },
       "model": null,
       "provider": null,
@@ -712,8 +712,8 @@
       "script": "wc_portfolio_tracker.py",
       "no_agent": true,
       "deliver": "discord:1514506100005666816",
-      "next_run": "2026-07-18T18:00:00+08:00",
-      "last_run": "2026-07-18T12:00:19.097487+08:00",
+      "next_run": "2026-07-19T00:00:00+08:00",
+      "last_run": "2026-07-18T18:00:54.952127+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6097
+        "completed": 6099
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-18T17:55:00+08:00",
-      "last_run": "2026-07-18T17:45:56.092854+08:00",
+      "next_run": "2026-07-18T18:05:00+08:00",
+      "last_run": "2026-07-18T17:55:57.057854+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -801,7 +801,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 419
+        "completed": 420
       },
       "model": "kimi-k2.7-code:cloud",
       "provider": "ollama-cloud",
@@ -812,8 +812,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-18T17:56:11.697108+08:00",
-      "last_run": "2026-07-18T16:56:11.697108+08:00",
+      "next_run": "2026-07-18T18:58:56.311167+08:00",
+      "last_run": "2026-07-18T17:58:56.311167+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -878,7 +878,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1521860841669001246",
-      "next_run": "2026-07-18T18:00:00+08:00",
+      "next_run": "2026-07-19T00:00:00+08:00",
       "last_run": "2026-07-18T12:03:10.403927+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2321
+        "completed": 2322
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-18T18:00:00+08:00",
-      "last_run": "2026-07-18T17:40:54.306977+08:00",
+      "next_run": "2026-07-18T18:10:00+08:00",
+      "last_run": "2026-07-18T17:50:54.646941+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-18T18:00:00+08:00",
+      "next_run": "2026-07-18T18:15:00+08:00",
       "last_run": "2026-07-18T17:46:42.231579+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1081,7 +1081,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-18T18:00:00+08:00",
+      "next_run": "2026-07-18T20:00:00+08:00",
       "last_run": "2026-07-18T16:01:22.450475+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2000
+        "completed": 2001
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-18T18:00:00+08:00",
-      "last_run": "2026-07-18T17:40:56.006768+08:00",
+      "next_run": "2026-07-18T18:10:00+08:00",
+      "last_run": "2026-07-18T17:50:56.268577+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1876
+        "completed": 1877
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-18T18:00:00+08:00",
-      "last_run": "2026-07-18T17:40:53.460290+08:00",
+      "next_run": "2026-07-18T18:10:00+08:00",
+      "last_run": "2026-07-18T17:50:53.454994+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3692
+        "completed": 3694
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-18T17:55:00+08:00",
-      "last_run": "2026-07-18T17:50:52.510878+08:00",
+      "next_run": "2026-07-18T18:05:00+08:00",
+      "last_run": "2026-07-18T18:00:54.107728+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1243,7 +1243,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 51
+        "completed": 52
       },
       "model": null,
       "provider": null,
@@ -1252,8 +1252,8 @@
       "script": "strategy_adjuster_check.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-18T18:00:00+08:00",
-      "last_run": "2026-07-18T12:00:18.641945+08:00",
+      "next_run": "2026-07-19T00:00:00+08:00",
+      "last_run": "2026-07-18T18:00:54.092611+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1277,7 +1277,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1231
+        "completed": 1232
       },
       "model": null,
       "provider": null,
@@ -1286,8 +1286,8 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-18T18:00:00+08:00",
-      "last_run": "2026-07-18T17:45:52.019392+08:00",
+      "next_run": "2026-07-18T18:15:00+08:00",
+      "last_run": "2026-07-18T18:00:54.101311+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1480,7 +1480,7 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-18T09:45:52.146569+00:00",
+    "last_update": "2026-07-18T09:58:09.393178+00:00",
     "portfolio": {
       "value": 4864.16,
       "capital": 4864.16,
@@ -1490,10 +1490,10 @@
       "open_positions": 0
     },
     "prices": {
-      "BTC": 63959.5,
-      "ETH": 1845.35,
-      "SOL": 74.7095,
-      "HYPE": 58.8485
+      "BTC": 63973.5,
+      "ETH": 1845.45,
+      "SOL": 74.8075,
+      "HYPE": 58.7935
     },
     "stats": {
       "total_trades": 80,
@@ -2449,7 +2449,7 @@
             "weight": 1.04
           }
         ],
-        "timestamp": "2026-07-18T09:45:52.024879+00:00"
+        "timestamp": "2026-07-18T09:55:53.218524+00:00"
       },
       "ETH": {
         "score": 0.0,
@@ -2461,7 +2461,7 @@
         "contradictions": 0,
         "narrative": "No active signals",
         "key_signals": [],
-        "timestamp": "2026-07-18T09:45:52.024887+00:00"
+        "timestamp": "2026-07-18T09:55:53.218527+00:00"
       },
       "SOL": {
         "score": 1.0,
@@ -2487,7 +2487,7 @@
             "weight": 0.72
           }
         ],
-        "timestamp": "2026-07-18T09:45:52.024901+00:00"
+        "timestamp": "2026-07-18T09:55:53.218538+00:00"
       },
       "HYPE": {
         "score": 1.0,
@@ -2513,7 +2513,7 @@
             "weight": 0.52
           }
         ],
-        "timestamp": "2026-07-18T09:45:52.024910+00:00"
+        "timestamp": "2026-07-18T09:55:53.218545+00:00"
       }
     },
     "ai_history": [
@@ -2573,21 +2573,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-17T18:20:16.126059+00:00",
-        "v": 4856.93,
-        "p": -2.86
-      },
-      {
-        "t": "2026-07-17T18:25:16.631057+00:00",
-        "v": 4855.62,
-        "p": -2.89
-      },
-      {
-        "t": "2026-07-17T18:30:17.326322+00:00",
-        "v": 4859.84,
-        "p": -2.8
-      },
       {
         "t": "2026-07-17T18:35:18.017930+00:00",
         "v": 4858.13,
@@ -3572,6 +3557,21 @@
         "t": "2026-07-18T09:45:52.146569+00:00",
         "v": 4864.16,
         "p": -2.72
+      },
+      {
+        "t": "2026-07-18T09:50:52.665172+00:00",
+        "v": 4864.16,
+        "p": -2.72
+      },
+      {
+        "t": "2026-07-18T09:55:53.321799+00:00",
+        "v": 4864.16,
+        "p": -2.72
+      },
+      {
+        "t": "2026-07-18T09:58:09.393178+00:00",
+        "v": 4864.16,
+        "p": -2.72
       }
     ]
   },
@@ -3660,7 +3660,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "17:50  up 32 days,  7:51, 2 users, load averages: 3.08 3.11 3.06",
+    "uptime": "18:00  up 32 days,  8:01, 2 users, load averages: 2.98 3.01 3.03",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 3d9be278\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 3095 commits behind \u2014 run 'hermes update'"
   },
