@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-21T02:50:01+08:00",
+  "collected_at": "2026-07-21T03:00:02+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-07-21T03:00:00+08:00",
+      "next_run": "2026-07-21T03:20:00+08:00",
       "last_run": "2026-07-21T02:41:09.621202+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6529
+        "completed": 6530
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-07-21T02:52:00+08:00",
-      "last_run": "2026-07-21T02:40:29.167556+08:00",
+      "next_run": "2026-07-21T03:07:00+08:00",
+      "last_run": "2026-07-21T02:53:48.777963+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -511,7 +511,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1519943122652758026",
-      "next_run": "2026-07-21T03:00:00+08:00",
+      "next_run": "2026-07-22T03:00:00+08:00",
       "last_run": "2026-07-20T03:01:07.614270+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6781
+        "completed": 6783
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-21T02:55:00+08:00",
-      "last_run": "2026-07-21T02:45:04.480780+08:00",
+      "next_run": "2026-07-21T03:05:00+08:00",
+      "last_run": "2026-07-21T02:55:05.811685+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2663
+        "completed": 2664
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-21T03:00:00+08:00",
-      "last_run": "2026-07-21T02:40:02.603740+08:00",
+      "next_run": "2026-07-21T03:10:00+08:00",
+      "last_run": "2026-07-21T02:50:03.889846+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-21T03:00:00+08:00",
+      "next_run": "2026-07-21T03:15:00+08:00",
       "last_run": "2026-07-21T02:45:23.967774+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2342
+        "completed": 2343
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-21T03:00:00+08:00",
-      "last_run": "2026-07-21T02:40:04.378067+08:00",
+      "next_run": "2026-07-21T03:10:00+08:00",
+      "last_run": "2026-07-21T02:50:05.900077+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2218
+        "completed": 2219
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-21T03:00:00+08:00",
-      "last_run": "2026-07-21T02:40:01.032140+08:00",
+      "next_run": "2026-07-21T03:10:00+08:00",
+      "last_run": "2026-07-21T02:50:02.797135+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 4376
+        "completed": 4377
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-21T02:55:00+08:00",
-      "last_run": "2026-07-21T02:50:01.205070+08:00",
+      "next_run": "2026-07-21T03:05:00+08:00",
+      "last_run": "2026-07-21T02:55:01.850862+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-21T03:00:00+08:00",
+      "next_run": "2026-07-21T03:15:00+08:00",
       "last_run": "2026-07-21T02:45:00.645998+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1474,20 +1474,20 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-20T18:48:31.880905+00:00",
+    "last_update": "2026-07-20T18:55:01.953015+00:00",
     "portfolio": {
-      "value": 4932.37,
+      "value": 4934.12,
       "capital": 4964.09,
       "initial": 5000.0,
-      "pnl": -67.63,
-      "pnl_pct": -1.35,
+      "pnl": -65.88,
+      "pnl_pct": -1.32,
       "open_positions": 2
     },
     "prices": {
-      "BTC": 65260.5,
-      "ETH": 1900.45,
-      "SOL": 77.7305,
-      "HYPE": 62.1845
+      "BTC": 65170.5,
+      "ETH": 1898.05,
+      "SOL": 77.6235,
+      "HYPE": 62.1685
     },
     "stats": {
       "total_trades": 86,
@@ -1504,32 +1504,32 @@
       "SOL": {
         "direction": "SHORT",
         "entry_price": 76.1095,
-        "current_price": 77.7305,
+        "current_price": 77.6235,
         "size": 19.847414410800834,
-        "unrealized_pnl": -32.12,
-        "unrealized_pnl_pct": -2.13,
+        "unrealized_pnl": -30.0,
+        "unrealized_pnl_pct": -1.99,
         "stop_loss": 78.572,
         "take_profit": 71.1845,
         "strategy": "stochastic",
         "entry_time": "2026-07-20T14:50:36.739326+00:00",
-        "duration_hours": 4.0,
-        "funding_rate": 0.000903,
-        "unrealized_funding": -0.0552
+        "duration_hours": 4.1,
+        "funding_rate": 0.000755,
+        "unrealized_funding": -0.0474
       },
       "HYPE": {
         "direction": "LONG",
         "entry_price": 62.1645,
-        "current_price": 62.1845,
+        "current_price": 62.1685,
         "size": 22.508243522400225,
-        "unrealized_pnl": 0.4,
-        "unrealized_pnl_pct": 0.03,
+        "unrealized_pnl": 0.04,
+        "unrealized_pnl_pct": 0.0,
         "stop_loss": 59.973,
         "take_profit": 66.5475,
         "strategy": "trend",
         "entry_time": "2026-07-20T16:00:44.220961+00:00",
-        "duration_hours": 2.8,
+        "duration_hours": 2.9,
         "funding_rate": 0.00125,
-        "unrealized_funding": 0.0489
+        "unrealized_funding": 0.0508
       }
     },
     "closed_trades": [
@@ -2450,64 +2450,64 @@
         "sources": [
           "news_agent"
         ],
-        "signal_count": 3,
+        "signal_count": 7,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "Single-source signal (news_agent) | news_agent: an, SOL) - \ud83d\udfe1 **High:** Iran strikes on US base in Jordan + m",
+        "narrative": "Single-source signal (news_agent) | news_agent: KING \u2014 Allbridge $1.65M Flash Loan Exploit** (SOL bridge hal",
         "key_signals": [
           {
             "source": "news_agent",
-            "signal": "an, SOL) - \ud83d\udfe1 **High:** Iran strikes on US base in Jordan + missile intercepts (geopolitical escalation) - \ud83d\udfe2 **Notable:**",
-            "weight": 1.42
+            "signal": "KING \u2014 Allbridge $1.65M Flash Loan Exploit** (SOL bridge halted, attacker used Kamino flash loan) \ud83d\udfe1 **Bitcoin surpasses ",
+            "weight": 1.2
           },
           {
             "source": "news_agent",
-            "signal": "intensifies. Crude & safe-haven assets may move.   \u2014 Crypto Briefing  **\ud83d\udfe2 Notable** \u2022 **Strategy Sells $263.5M in MSTR S",
-            "weight": 0.98
+            "signal": "eum. <https://thedefiant.io/news/hacks/allbridge-halts-core-bridge-after-1-65m-flash-loan-exploit>  \ud83d\udfe1 **Bitcoin surpasse",
+            "weight": 1.2
           },
           {
             "source": "news_agent",
-            "signal": "ay move.   \u2014 Crypto Briefing  **\ud83d\udfe2 Notable** \u2022 **Strategy Sells $263.5M in MSTR Shares, Skips Bitcoin Again** `BTC`   Cas",
-            "weight": 0.98
+            "signal": "tegy-sells-263-5m-in-mstr-shares-skips-bitcoin-again>  \ud83d\udfe1 **HYPE Spot ETFs Log First Weekly Outflow Since May** `HYPE` Ni",
+            "weight": 1.2
           }
         ],
-        "timestamp": "2026-07-20T18:45:11.427812+00:00"
+        "timestamp": "2026-07-20T18:55:01.861953+00:00"
       },
       "ETH": {
-        "score": 0.38,
-        "confidence": 0.84,
+        "score": 0.81,
+        "confidence": 1.0,
         "sources": [
           "x_scanner",
           "news_agent",
           "oi_funding"
         ],
-        "signal_count": 7,
+        "signal_count": 10,
         "convergence": true,
-        "convergence_strength": 2,
-        "contradictions": 1,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @amonyx (\ud83d\udc4d31 \ud83d\udd0412) Breakout incoming on $ETH [2.3] | news_agent: ts Core Bridge After $1.65M Flash Loan Exploit** `SOL`   Att | oi_funding: OI +5.0% 1h, funding 0.0013%",
+        "convergence_strength": 3,
+        "contradictions": 0,
+        "narrative": "\ud83d\udcc8 3-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @randgroup (\ud83d\udc4d119 \ud83d\udd049) $ETH vs $BTC breaching up th | news_agent: -sells-263-5m-in-mstr-shares-skips-bitcoin-again>  \ud83d\udfe1 **HYPE  | oi_funding: OI +5.0% 1h, funding 0.0013%",
         "key_signals": [
           {
-            "source": "news_agent",
-            "signal": "ts Core Bridge After $1.65M Flash Loan Exploit** `SOL`   Attacker used $1.12M Kamino flash loan to drain Solana stableco",
-            "weight": 1.2
-          },
-          {
-            "source": "oi_funding",
-            "signal": "OI +5.0% 1h, funding 0.0013%",
-            "weight": 0.9
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udcc8 $ETH] @randgroup (\ud83d\udc4d119 \ud83d\udd049) $ETH vs $BTC breaching up the YEARLY downtrend [score: 4.1]",
+            "weight": 2.67
           },
           {
             "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udcc8 $ETH] @amonyx (\ud83d\udc4d31 \ud83d\udd0412) Breakout incoming on $ETH [2.3]",
-            "weight": 0.8
+            "signal": "\u2022 [\ud83d\udcc8 $ETH] @LSTraderCrypto (\ud83d\udc4d72 \ud83d\udd048) The next season could be massive on Ethereum, momentum is building step by step [sco",
+            "weight": 2.41
+          },
+          {
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udcc8 $ETH] @amonyx (\ud83d\udc4d31 \ud83d\udd0412) I smell a breakout incoming on $ETH [score: 2.3]",
+            "weight": 1.84
           }
         ],
-        "timestamp": "2026-07-20T18:45:11.427847+00:00"
+        "timestamp": "2026-07-20T18:55:01.861973+00:00"
       },
       "SOL": {
-        "score": -0.45,
+        "score": -0.41,
         "confidence": 0.6,
         "sources": [
           "x_scanner",
@@ -2515,16 +2515,16 @@
           "news_agent",
           "oi_funding"
         ],
-        "signal_count": 5,
+        "signal_count": 7,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 2,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [$SOL] @novexztr (\ud83d\udc4d27 \ud83d\udd0413) Stealth launched memecoin $FOXC | whale_monitor: Orderbook 75% bid-weighted (bullish) | news_agent: sells $263.5M MSTR (BTC)  **\ud83d\udcf0 Crypto News \u2014 2026-07-20 18:38",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $SOL] @carolinaterrain (\ud83d\udc4d3) Paper tokens fade, but rea | whale_monitor: Orderbook 75% bid-weighted (bullish) | news_agent: ld format them as a fresh report.  Let me build the Discord ",
         "key_signals": [
           {
-            "source": "news_agent",
-            "signal": "sells $263.5M MSTR (BTC)  **\ud83d\udcf0 Crypto News \u2014 2026-07-20 18:38 UTC**  **\ud83d\udd34 Breaking** \u2022 **Allbridge Halts Core Bridge After",
-            "weight": 1.5
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83c\udfd7\ufe0f $SOL] @carolinaterrain (\ud83d\udc4d3) Paper tokens fade, but real-world physical infrastructure is forever \u2014 building cash-f",
+            "weight": 1.69
           },
           {
             "source": "oi_funding",
@@ -2533,37 +2533,43 @@
           },
           {
             "source": "news_agent",
-            "signal": "Wiki writes complete. Now let me format the Discord message with the newsworthy articles:  - \ud83d\udd34 **Breaking:** Allbridge e",
+            "signal": "ld format them as a fresh report.  Let me build the Discord message with the notable articles:  \ud83d\udd34 **BREAKING \u2014 Allbridge",
             "weight": 1.42
           }
         ],
-        "timestamp": "2026-07-20T18:45:11.427862+00:00"
+        "timestamp": "2026-07-20T18:55:01.861987+00:00"
       },
       "HYPE": {
-        "score": 1.0,
-        "confidence": 0.74,
+        "score": -0.13,
+        "confidence": 0.84,
         "sources": [
           "x_scanner",
+          "news_agent",
           "oi_funding"
         ],
-        "signal_count": 2,
+        "signal_count": 6,
         "convergence": true,
         "convergence_strength": 2,
-        "contradictions": 0,
-        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udc8e $HYPE] @Degen_Hardy (\ud83d\udc4d126) Hyperliquid strongest idea \u2014 | oi_funding: OI +4.0% 1h, funding 0.0013%",
+        "contradictions": 1,
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $HYPE] @Degen_Hardy (\ud83d\udc4d126) Hyperliquid is one of the st | news_agent: ~$9B underwater as cash reserve lifts to $3.225B. <https://t | oi_funding: OI +4.0% 1h, funding 0.0013%",
         "key_signals": [
           {
-            "source": "oi_funding",
-            "signal": "OI +4.0% 1h, funding 0.0013%",
-            "weight": 0.72
+            "source": "x_scanner",
+            "signal": "\u2022 [\ud83d\udcc8 $HYPE] @Degen_Hardy (\ud83d\udc4d126) Hyperliquid is one of the strongest ideas in the crypto market \u2014 I personally value $HYP",
+            "weight": 2.6
           },
           {
-            "source": "x_scanner",
-            "signal": "\u2022 [\ud83d\udc8e $HYPE] @Degen_Hardy (\ud83d\udc4d126) Hyperliquid strongest idea \u2014 I value $HYPE well above $123 [4.0]",
-            "weight": 0.65
+            "source": "news_agent",
+            "signal": "~$9B underwater as cash reserve lifts to $3.225B. <https://thedefiant.io/converge/cefi/strategy-sells-263-5m-in-mstr-sha",
+            "weight": 1.2
+          },
+          {
+            "source": "news_agent",
+            "signal": "tps://thedefiant.io/converge/cefi/strategy-sells-263-5m-in-mstr-shares-skips-bitcoin-again>  \ud83d\udfe1 **HYPE Spot ETFs Log Firs",
+            "weight": 1.2
           }
         ],
-        "timestamp": "2026-07-20T18:45:11.427871+00:00"
+        "timestamp": "2026-07-20T18:55:01.861997+00:00"
       }
     },
     "ai_history": [
@@ -2627,16 +2633,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-20T03:25:22.560892+00:00",
-        "v": 4902.43,
-        "p": -1.95
-      },
-      {
-        "t": "2026-07-20T03:30:22.866353+00:00",
-        "v": 4900.73,
-        "p": -1.99
-      },
       {
         "t": "2026-07-20T03:35:23.186865+00:00",
         "v": 4903.92,
@@ -3626,6 +3622,16 @@
         "t": "2026-07-20T18:48:31.880905+00:00",
         "v": 4932.37,
         "p": -1.35
+      },
+      {
+        "t": "2026-07-20T18:50:01.402391+00:00",
+        "v": 4932.06,
+        "p": -1.36
+      },
+      {
+        "t": "2026-07-20T18:55:01.953015+00:00",
+        "v": 4934.12,
+        "p": -1.32
       }
     ]
   },
@@ -3714,7 +3720,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "2:50  up 34 days, 16:50, 2 users, load averages: 2.98 3.17 3.16",
+    "uptime": "3:00  up 34 days, 17 hrs, 2 users, load averages: 4.05 3.37 3.22",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream c59ca469\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 3533 commits behind \u2014 run 'hermes update'"
   },
