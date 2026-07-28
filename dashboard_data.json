@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-29T03:40:03+08:00",
+  "collected_at": "2026-07-29T03:50:04+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 7141
+        "completed": 7142
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,7 +119,7 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-07-29T04:00:00+08:00",
-      "last_run": "2026-07-29T03:22:12.618643+08:00",
+      "last_run": "2026-07-29T03:41:37.826714+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 7300
+        "completed": 7301
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -151,7 +151,7 @@
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
       "next_run": "2026-07-29T03:52:00+08:00",
-      "last_run": "2026-07-29T03:24:07.930041+08:00",
+      "last_run": "2026-07-29T03:40:50.349286+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9565
+        "completed": 9566
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -214,8 +214,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-07-29T03:48:00+08:00",
-      "last_run": "2026-07-29T03:33:12.984016+08:00",
+      "next_run": "2026-07-29T04:03:00+08:00",
+      "last_run": "2026-07-29T03:48:13.902843+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9095
+        "completed": 9097
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-29T03:45:00+08:00",
-      "last_run": "2026-07-29T03:35:06.917737+08:00",
+      "next_run": "2026-07-29T03:55:00+08:00",
+      "last_run": "2026-07-29T03:45:07.812184+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3820
+        "completed": 3821
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-29T03:50:00+08:00",
-      "last_run": "2026-07-29T03:30:04.274994+08:00",
+      "next_run": "2026-07-29T04:00:00+08:00",
+      "last_run": "2026-07-29T03:40:06.023605+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2358
+        "completed": 2359
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1046,8 +1046,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-29T03:45:00+08:00",
-      "last_run": "2026-07-29T03:30:53.267266+08:00",
+      "next_run": "2026-07-29T04:00:00+08:00",
+      "last_run": "2026-07-29T03:45:39.559582+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3499
+        "completed": 3500
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-29T03:50:00+08:00",
-      "last_run": "2026-07-29T03:30:06.121916+08:00",
+      "next_run": "2026-07-29T04:00:00+08:00",
+      "last_run": "2026-07-29T03:40:08.197346+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3375
+        "completed": 3376
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-29T03:50:00+08:00",
-      "last_run": "2026-07-29T03:30:03.060258+08:00",
+      "next_run": "2026-07-29T04:00:00+08:00",
+      "last_run": "2026-07-29T03:40:04.606718+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6689
+        "completed": 6692
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-07-29T03:45:00+08:00",
-      "last_run": "2026-07-29T03:35:02.578722+08:00",
+      "next_run": "2026-07-29T03:55:00+08:00",
+      "last_run": "2026-07-29T03:50:04.220347+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1277,7 +1277,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 2230
+        "completed": 2231
       },
       "model": null,
       "provider": null,
@@ -1286,8 +1286,8 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-07-29T03:45:00+08:00",
-      "last_run": "2026-07-29T03:30:02.091279+08:00",
+      "next_run": "2026-07-29T04:00:00+08:00",
+      "last_run": "2026-07-29T03:45:03.608042+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1506,7 +1506,7 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-07-28T19:35:15.720619+00:00",
+    "last_update": "2026-07-28T19:45:03.833347+00:00",
     "portfolio": {
       "value": 4819.37,
       "capital": 4819.37,
@@ -1516,10 +1516,10 @@
       "open_positions": 0
     },
     "prices": {
-      "BTC": 63788.5,
-      "ETH": 1918.05,
-      "SOL": 74.1815,
-      "HYPE": 55.1925
+      "BTC": 63668.5,
+      "ETH": 1915.35,
+      "SOL": 74.1535,
+      "HYPE": 55.056
     },
     "stats": {
       "total_trades": 113,
@@ -2453,20 +2453,19 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.29,
-        "confidence": 0.8,
+        "score": 0.5,
+        "confidence": 0.6,
         "sources": [
           "x_scanner",
-          "whale_monitor",
           "news_agent",
           "polymarket",
           "oi_funding"
         ],
-        "signal_count": 7,
-        "convergence": true,
-        "convergence_strength": 3,
+        "signal_count": 6,
+        "convergence": false,
+        "convergence_strength": 0,
         "contradictions": 2,
-        "narrative": "\ud83d\udcc9 3-source bearish convergence | x_scanner: \u2022 [\ud83d\udcca $BTC] @WhaleInsider (\ud83d\udc4d43 \ud83d\udd049) JUST IN: The average U.S.  | whale_monitor: Orderbook 29% bid (ask-heavy, bearish) | news_agent: 592/morgan-stanley-crypto-ethereum-solana-etps `ETH` `SOL` \u2014",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udcca $BTC] @WhaleInsider (\ud83d\udc4d43 \ud83d\udd049) JUST IN: The average U.S.  | news_agent: SDC Support** \u2014 Shown at Galaxy Unpacked | [Decrypt](https:/ | polymarket: 8.0%** (+7.5pp) \u2022 \"Three consecutive pauses\" Jul-Sep-Oct: **",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2475,31 +2474,37 @@
           },
           {
             "source": "oi_funding",
-            "signal": "OI -20.0% 1h",
+            "signal": "OI -30.0% 1h",
             "weight": 1.44
           },
           {
             "source": "news_agent",
-            "signal": "592/morgan-stanley-crypto-ethereum-solana-etps `ETH` `SOL` \u2014 Major wirehouse expanding crypto product lineup  **Hypersca",
-            "weight": 0.98
+            "signal": "SDC Support** \u2014 Shown at Galaxy Unpacked | [Decrypt](https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc) \u2022",
+            "weight": 1.42
           }
         ],
-        "timestamp": "2026-07-28T19:35:02.568353+00:00"
+        "timestamp": "2026-07-28T19:45:03.604080+00:00"
       },
       "ETH": {
-        "score": 0.47,
-        "confidence": 0.7,
+        "score": 0.32,
+        "confidence": 0.6,
         "sources": [
           "x_scanner",
           "news_agent",
-          "polymarket"
+          "polymarket",
+          "oi_funding"
         ],
-        "signal_count": 4,
+        "signal_count": 7,
         "convergence": false,
         "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [$ETH ETF] Morgan Stanley launches lowest-cost spot ETH+SO | news_agent: 2532:R>  **Morgan Stanley Expands Crypto Push With Ethereum  | polymarket: Dip to $62.5K: 52.8% (+19.8pp) \u2014 clustering around current r",
+        "contradictions": 2,
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [$ETH ETF] Morgan Stanley launches lowest-cost spot ETH+SO | news_agent: ty | [Crypto Briefing](https://cryptobriefing.com/sp-global- | polymarket: Dip to $62.5K: 52.8% (+19.8pp) \u2014 clustering around current r",
         "key_signals": [
+          {
+            "source": "oi_funding",
+            "signal": "OI -101.0% 1h",
+            "weight": 1.44
+          },
           {
             "source": "x_scanner",
             "signal": "\u2022 [$ETH ETF] Morgan Stanley launches lowest-cost spot ETH+SOL ETFs on NYSE Arca \u2014 0.14% fee ratio [score: 1.6]",
@@ -2507,36 +2512,42 @@
           },
           {
             "source": "news_agent",
-            "signal": "2532:R>  **Morgan Stanley Expands Crypto Push With Ethereum and Solana ETPs** \ud83d\udd17 https://decrypt.co/374592/morgan-stanley",
+            "signal": "ty | [Crypto Briefing](https://cryptobriefing.com/sp-global-earnings-miss-iran-war-energy/)  \ud83d\udfe1 **High Impact** \u2022 **Morga",
             "weight": 0.98
-          },
-          {
-            "source": "polymarket",
-            "signal": "Dip to $62.5K: 52.8% (+19.8pp) \u2014 clustering around current range \u2022 Reach $70K: 8.5% (-17.0pp) \u2014 fading fast \u2022 Dip to $52",
-            "weight": 0.96
           }
         ],
-        "timestamp": "2026-07-28T19:35:02.568379+00:00"
+        "timestamp": "2026-07-28T19:45:03.604112+00:00"
       },
       "SOL": {
-        "score": 1.0,
-        "confidence": 0.3,
+        "score": 0.78,
+        "confidence": 0.5,
         "sources": [
+          "whale_monitor",
           "news_agent"
         ],
-        "signal_count": 1,
+        "signal_count": 5,
         "convergence": false,
         "convergence_strength": 0,
-        "contradictions": 0,
-        "narrative": "Single-source signal (news_agent) | news_agent: >  **Morgan Stanley Expands Crypto Push With Ethereum and So",
+        "contradictions": 1,
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | whale_monitor: Orderbook 38% bid (ask-heavy, bearish) | news_agent: Crypto Briefing](https://cryptobriefing.com/sp-global-earnin",
         "key_signals": [
           {
             "source": "news_agent",
-            "signal": ">  **Morgan Stanley Expands Crypto Push With Ethereum and Solana ETPs** \ud83d\udd17 https://decrypt.co/374592/morgan-stanley-crypt",
+            "signal": "Crypto Briefing](https://cryptobriefing.com/sp-global-earnings-miss-iran-war-energy/)  \ud83d\udfe1 **High Impact** \u2022 **Morgan Stan",
+            "weight": 0.98
+          },
+          {
+            "source": "news_agent",
+            "signal": "-earnings-miss-iran-war-energy/)  \ud83d\udfe1 **High Impact** \u2022 **Morgan Stanley Expands Crypto With ETH & SOL ETPs** \u2014 Wall Stree",
+            "weight": 0.98
+          },
+          {
+            "source": "news_agent",
+            "signal": "\ud83d\udfe1 **High Impact** \u2022 **Morgan Stanley Expands Crypto With ETH & SOL ETPs** \u2014 Wall Street giant launches spot ETH and SOL ",
             "weight": 0.98
           }
         ],
-        "timestamp": "2026-07-28T19:35:02.568388+00:00"
+        "timestamp": "2026-07-28T19:45:03.604123+00:00"
       },
       "HYPE": {
         "score": -1.0,
@@ -2549,7 +2560,7 @@
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 0,
-        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83d\udcca $HYPE] @Goupenguin (\ud83d\udc4d5) Abraxas Capital flagged address | oi_funding: OI -13.0% 1h",
+        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83d\udcca $HYPE] @Goupenguin (\ud83d\udc4d5) Abraxas Capital flagged address | oi_funding: OI -26.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2558,11 +2569,11 @@
           },
           {
             "source": "oi_funding",
-            "signal": "OI -13.0% 1h",
+            "signal": "OI -26.0% 1h",
             "weight": 1.44
           }
         ],
-        "timestamp": "2026-07-28T19:35:02.568397+00:00"
+        "timestamp": "2026-07-28T19:45:03.604135+00:00"
       }
     },
     "ai_history": [
@@ -2626,16 +2637,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 5076.7203404422935,
     "equity_curve": [
-      {
-        "t": "2026-07-28T04:15:16.538098+00:00",
-        "v": 4843.8,
-        "p": -3.12
-      },
-      {
-        "t": "2026-07-28T04:20:17.128289+00:00",
-        "v": 4844.85,
-        "p": -3.1
-      },
       {
         "t": "2026-07-28T04:25:17.582000+00:00",
         "v": 4844.71,
@@ -3625,6 +3626,16 @@
         "t": "2026-07-28T19:35:15.720619+00:00",
         "v": 4819.37,
         "p": -3.61
+      },
+      {
+        "t": "2026-07-28T19:40:03.374905+00:00",
+        "v": 4819.37,
+        "p": -3.61
+      },
+      {
+        "t": "2026-07-28T19:45:03.833347+00:00",
+        "v": 4819.37,
+        "p": -3.61
       }
     ]
   },
@@ -3713,7 +3724,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "3:40  up 42 days, 17:40, 2 users, load averages: 3.35 3.33 3.34",
+    "uptime": "3:50  up 42 days, 17:50, 2 users, load averages: 3.86 3.74 3.58",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 585726ac\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 5711 commits behind \u2014 run 'hermes update'"
   },
