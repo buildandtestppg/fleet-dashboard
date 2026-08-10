@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-11T07:10:48+08:00",
+  "collected_at": "2026-08-11T07:20:49+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-08-11T07:20:00+08:00",
+      "next_run": "2026-08-11T07:40:00+08:00",
       "last_run": "2026-08-11T07:04:16.876136+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1491782766424228101 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8514
+        "completed": 8515
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -151,7 +151,7 @@
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
       "next_run": "2026-08-11T07:22:00+08:00",
-      "last_run": "2026-08-11T06:56:01.258840+08:00",
+      "last_run": "2026-08-11T07:11:02.904935+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1491782768814723227 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
       "workdir": "",
@@ -214,7 +214,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-08-11T07:18:00+08:00",
+      "next_run": "2026-08-11T07:33:00+08:00",
       "last_run": "2026-08-11T07:07:03.533935+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1492357813035602010 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 12881
+        "completed": 12883
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-11T07:15:00+08:00",
-      "last_run": "2026-08-11T07:05:47.678081+08:00",
+      "next_run": "2026-08-11T07:25:00+08:00",
+      "last_run": "2026-08-11T07:15:49.045677+08:00",
       "last_status": "ok",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1520303679125721118 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5713
+        "completed": 5714
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-11T07:20:00+08:00",
-      "last_run": "2026-08-11T07:00:47.387479+08:00",
+      "next_run": "2026-08-11T07:30:00+08:00",
+      "last_run": "2026-08-11T07:10:48.567003+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3620
+        "completed": 3621
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1046,8 +1046,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-11T07:15:00+08:00",
-      "last_run": "2026-08-11T07:04:08.817558+08:00",
+      "next_run": "2026-08-11T07:30:00+08:00",
+      "last_run": "2026-08-11T07:19:20.352266+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1520303679125721118 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
       "workdir": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5392
+        "completed": 5393
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-11T07:20:00+08:00",
-      "last_run": "2026-08-11T07:00:47.498476+08:00",
+      "next_run": "2026-08-11T07:30:00+08:00",
+      "last_run": "2026-08-11T07:10:48.659167+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5268
+        "completed": 5269
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-11T07:20:00+08:00",
-      "last_run": "2026-08-11T07:00:47.450166+08:00",
+      "next_run": "2026-08-11T07:30:00+08:00",
+      "last_run": "2026-08-11T07:10:48.777468+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 10476
+        "completed": 10478
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-11T07:15:00+08:00",
-      "last_run": "2026-08-11T07:10:48.209290+08:00",
+      "next_run": "2026-08-11T07:25:00+08:00",
+      "last_run": "2026-08-11T07:20:49.376610+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1277,7 +1277,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3492
+        "completed": 3493
       },
       "model": null,
       "provider": null,
@@ -1286,8 +1286,8 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-11T07:15:00+08:00",
-      "last_run": "2026-08-11T07:00:46.798254+08:00",
+      "next_run": "2026-08-11T07:30:00+08:00",
+      "last_run": "2026-08-11T07:15:48.859528+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1311,7 +1311,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 712
+        "completed": 713
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1320,8 +1320,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1533813403460571158",
-      "next_run": "2026-08-11T07:15:00+08:00",
-      "last_run": "2026-08-11T07:04:01.840648+08:00",
+      "next_run": "2026-08-11T07:30:00+08:00",
+      "last_run": "2026-08-11T07:19:12.881181+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1533813403460571158 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
       "workdir": null,
@@ -3736,7 +3736,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "7:10  up 55 days, 21:11, 2 users, load averages: 1.08 1.17 1.16",
+    "uptime": "7:20  up 55 days, 21:21, 2 users, load averages: 1.05 1.12 1.14",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.17.0 (2026.6.19) \u00b7 upstream 1be70d63\nProject: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nUpdate available: 7763 commits behind \u2014 run 'hermes update'"
   },
