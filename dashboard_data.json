@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-12T17:50:00+08:00",
+  "collected_at": "2026-08-12T18:00:53+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
-      "next_run": "2026-08-12T18:00:00+08:00",
+      "next_run": "2026-08-12T18:20:00+08:00",
       "last_run": "2026-08-12T17:47:45.383274+08:00",
       "last_status": "error",
       "last_delivery_error": null,
@@ -150,7 +150,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-08-12T17:52:00+08:00",
+      "next_run": "2026-08-12T18:07:00+08:00",
       "last_run": "2026-08-12T17:39:27.293239+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -575,7 +575,7 @@
       "script": "market_analyst.sh",
       "no_agent": true,
       "deliver": "discord:1491588147182571611",
-      "next_run": "2026-08-12T18:00:00+08:00",
+      "next_run": "2026-08-12T20:00:00+08:00",
       "last_run": "2026-08-12T16:00:32.203033+08:00",
       "last_status": "ok",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1491588147182571611 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
@@ -703,7 +703,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 241
+        "completed": 242
       },
       "model": null,
       "provider": null,
@@ -712,10 +712,10 @@
       "script": "wc_portfolio_tracker.py",
       "no_agent": true,
       "deliver": "discord:1514506100005666816",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T12:00:59.769613+08:00",
-      "last_status": "error",
-      "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1514506100005666816 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
+      "next_run": "2026-08-13T00:00:00+08:00",
+      "last_run": "2026-08-12T18:00:53.321979+08:00",
+      "last_status": "ok",
+      "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
       "enabled_toolsets": [
         "terminal"
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 13297
+        "completed": 13299
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-12T17:55:00+08:00",
-      "last_run": "2026-08-12T17:46:08.938143+08:00",
+      "next_run": "2026-08-12T18:05:00+08:00",
+      "last_run": "2026-08-12T17:55:53.450630+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -878,7 +878,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1521860841669001246",
-      "next_run": "2026-08-12T18:00:00+08:00",
+      "next_run": "2026-08-13T00:00:00+08:00",
       "last_run": "2026-08-12T12:04:16.645238+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1521860841669001246 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5921
+        "completed": 5922
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T17:41:04.905690+08:00",
+      "next_run": "2026-08-12T18:10:00+08:00",
+      "last_run": "2026-08-12T17:50:06.880175+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-12T18:00:00+08:00",
+      "next_run": "2026-08-12T18:15:00+08:00",
       "last_run": "2026-08-12T17:48:11.082316+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1081,7 +1081,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-12T18:00:00+08:00",
+      "next_run": "2026-08-12T20:00:00+08:00",
       "last_run": "2026-08-12T16:04:00.477742+08:00",
       "last_status": "error",
       "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1520303679125721118 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5600
+        "completed": 5601
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T17:41:09.032006+08:00",
+      "next_run": "2026-08-12T18:10:00+08:00",
+      "last_run": "2026-08-12T17:50:11.079455+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5476
+        "completed": 5478
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T17:41:04.503165+08:00",
+      "next_run": "2026-08-12T18:10:00+08:00",
+      "last_run": "2026-08-12T18:00:53.306999+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 10891
+        "completed": 10894
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-12T17:55:00+08:00",
-      "last_run": "2026-08-12T17:46:00.626121+08:00",
+      "next_run": "2026-08-12T18:05:00+08:00",
+      "last_run": "2026-08-12T18:00:51.364658+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1243,7 +1243,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 151
+        "completed": 152
       },
       "model": null,
       "provider": null,
@@ -1252,8 +1252,8 @@
       "script": "strategy_adjuster_check.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T12:00:59.319323+08:00",
+      "next_run": "2026-08-13T00:00:00+08:00",
+      "last_run": "2026-08-12T18:00:51.396775+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1277,7 +1277,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3631
+        "completed": 3632
       },
       "model": null,
       "provider": null,
@@ -1286,8 +1286,8 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T17:46:02.695731+08:00",
+      "next_run": "2026-08-12T18:15:00+08:00",
+      "last_run": "2026-08-12T18:00:51.452890+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1311,7 +1311,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 849
+        "completed": 850
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1320,8 +1320,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1533813403460571158",
-      "next_run": "2026-08-12T18:00:00+08:00",
-      "last_run": "2026-08-12T17:35:00.399116+08:00",
+      "next_run": "2026-08-12T18:15:00+08:00",
+      "last_run": "2026-08-12T17:51:33.949546+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -3672,15 +3672,15 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "17:50  up 48 mins, 2 users, load averages: 1.94 2.35 4.39",
+    "uptime": "18:00  up 59 mins, 2 users, load averages: 1.30 1.50 2.80",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.20.0 (2026.8.3)\nInstall directory: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nRun 'hermes version' for update status."
   },
   "summary": {
     "total_jobs": 40,
     "active_jobs": 39,
-    "healthy_jobs": 18,
-    "errored_jobs": 21,
+    "healthy_jobs": 19,
+    "errored_jobs": 20,
     "tripped_jobs": 0,
     "total_cost_estimate": 0.151086,
     "total_cost_records": 380,
