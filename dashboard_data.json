@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-12T18:00:53+08:00",
+  "collected_at": "2026-08-12T18:10:52+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -22,7 +22,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1480959499060645950",
-      "next_run": "2026-08-12T18:05:00+08:00",
+      "next_run": "2026-08-12T18:35:00+08:00",
       "last_run": "2026-08-12T17:48:51.934314+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8109
+        "completed": 8110
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -119,8 +119,8 @@
       "no_agent": false,
       "deliver": "discord:1491782766424228101",
       "next_run": "2026-08-12T18:20:00+08:00",
-      "last_run": "2026-08-12T17:47:45.383274+08:00",
-      "last_status": "error",
+      "last_run": "2026-08-12T18:02:13.564175+08:00",
+      "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
       "enabled_toolsets": [],
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8653
+        "completed": 8654
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227",
-      "next_run": "2026-08-12T18:07:00+08:00",
-      "last_run": "2026-08-12T17:39:27.293239+08:00",
+      "next_run": "2026-08-12T18:22:00+08:00",
+      "last_run": "2026-08-12T18:09:08.825641+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 10966
+        "completed": 10967
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -214,8 +214,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-08-12T18:03:00+08:00",
-      "last_run": "2026-08-12T17:48:39.863628+08:00",
+      "next_run": "2026-08-12T18:18:00+08:00",
+      "last_run": "2026-08-12T18:04:03.703576+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -566,7 +566,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 950
+        "completed": 951
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -576,9 +576,9 @@
       "no_agent": true,
       "deliver": "discord:1491588147182571611",
       "next_run": "2026-08-12T20:00:00+08:00",
-      "last_run": "2026-08-12T16:00:32.203033+08:00",
+      "last_run": "2026-08-12T18:00:53.915082+08:00",
       "last_status": "ok",
-      "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1491588147182571611 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
+      "last_delivery_error": null,
       "workdir": null,
       "enabled_toolsets": [
         "terminal"
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 13299
+        "completed": 13301
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-12T18:05:00+08:00",
-      "last_run": "2026-08-12T17:55:53.450630+08:00",
+      "next_run": "2026-08-12T18:15:00+08:00",
+      "last_run": "2026-08-12T18:05:56.379815+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -869,7 +869,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 172
+        "completed": 173
       },
       "model": "glm-5.2",
       "provider": "zai",
@@ -879,9 +879,9 @@
       "no_agent": false,
       "deliver": "discord:1521860841669001246",
       "next_run": "2026-08-13T00:00:00+08:00",
-      "last_run": "2026-08-12T12:04:16.645238+08:00",
-      "last_status": "error",
-      "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1521860841669001246 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
+      "last_run": "2026-08-12T18:10:43.184291+08:00",
+      "last_status": "ok",
+      "last_delivery_error": null,
       "workdir": null,
       "enabled_toolsets": null,
       "schedule_expr": "0 */6 * * *",
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5922
+        "completed": 5923
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:10:00+08:00",
-      "last_run": "2026-08-12T17:50:06.880175+08:00",
+      "next_run": "2026-08-12T18:20:00+08:00",
+      "last_run": "2026-08-12T18:00:58.063369+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3758
+        "completed": 3759
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1047,7 +1047,7 @@
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
       "next_run": "2026-08-12T18:15:00+08:00",
-      "last_run": "2026-08-12T17:48:11.082316+08:00",
+      "last_run": "2026-08-12T18:01:14.860663+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1072,7 +1072,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 466
+        "completed": 467
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1082,9 +1082,9 @@
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
       "next_run": "2026-08-12T20:00:00+08:00",
-      "last_run": "2026-08-12T16:04:00.477742+08:00",
-      "last_status": "error",
-      "last_delivery_error": "live adapter send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; live adapter delivery to discord:1520303679125721118 failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]; delivery error: Discord send failed: Cannot connect to host discord.com:443 ssl:default [Can't assign requested address]",
+      "last_run": "2026-08-12T18:06:24.263646+08:00",
+      "last_status": "ok",
+      "last_delivery_error": null,
       "workdir": null,
       "enabled_toolsets": [
         "terminal",
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5601
+        "completed": 5602
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:10:00+08:00",
-      "last_run": "2026-08-12T17:50:11.079455+08:00",
+      "next_run": "2026-08-12T18:20:00+08:00",
+      "last_run": "2026-08-12T18:01:21.563079+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1184,7 +1184,7 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-12T18:10:00+08:00",
+      "next_run": "2026-08-12T18:20:00+08:00",
       "last_run": "2026-08-12T18:00:53.306999+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 10894
+        "completed": 10895
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-12T18:05:00+08:00",
-      "last_run": "2026-08-12T18:00:51.364658+08:00",
+      "next_run": "2026-08-12T18:15:00+08:00",
+      "last_run": "2026-08-12T18:05:52.153837+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1311,7 +1311,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 850
+        "completed": 851
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1321,7 +1321,7 @@
       "no_agent": false,
       "deliver": "discord:1533813403460571158",
       "next_run": "2026-08-12T18:15:00+08:00",
-      "last_run": "2026-08-12T17:51:33.949546+08:00",
+      "last_run": "2026-08-12T18:05:01.347265+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -3672,15 +3672,15 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "18:00  up 59 mins, 2 users, load averages: 1.30 1.50 2.80",
+    "uptime": "18:10  up  1:09, 2 users, load averages: 1.38 1.49 2.16",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.20.0 (2026.8.3)\nInstall directory: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nRun 'hermes version' for update status."
   },
   "summary": {
     "total_jobs": 40,
     "active_jobs": 39,
-    "healthy_jobs": 19,
-    "errored_jobs": 20,
+    "healthy_jobs": 22,
+    "errored_jobs": 17,
     "tripped_jobs": 0,
     "total_cost_estimate": 0.151086,
     "total_cost_records": 380,
