@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-27T11:29:53+08:00",
+  "collected_at": "2026-08-27T11:30:19+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -45,7 +45,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3306
+        "completed": 3307
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -55,7 +55,7 @@
       "no_agent": false,
       "deliver": "discord:1491588147182571611:1491476705796296835",
       "next_run": "2026-08-27T12:25:00+08:00",
-      "last_run": "2026-08-27T10:25:28.092634+08:00",
+      "last_run": "2026-08-27T11:30:12.750530+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 12350
+        "completed": 12351
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -215,7 +215,7 @@
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
       "next_run": "2026-08-27T11:33:00+08:00",
-      "last_run": "2026-08-27T11:03:27.385770+08:00",
+      "last_run": "2026-08-27T11:30:03.850948+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -746,7 +746,7 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-27T11:30:00+08:00",
+      "next_run": "2026-08-27T11:35:00+08:00",
       "last_run": "2026-08-27T11:25:21.584183+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 7941
+        "completed": 7942
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-27T11:30:00+08:00",
-      "last_run": "2026-08-27T11:00:19.049378+08:00",
+      "next_run": "2026-08-27T11:40:00+08:00",
+      "last_run": "2026-08-27T11:29:55.736509+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 5133
+        "completed": 5134
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1046,8 +1046,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-27T11:30:00+08:00",
-      "last_run": "2026-08-27T11:00:43.437584+08:00",
+      "next_run": "2026-08-27T11:45:00+08:00",
+      "last_run": "2026-08-27T11:30:02.487954+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 7620
+        "completed": 7621
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-27T11:30:00+08:00",
-      "last_run": "2026-08-27T11:00:21.026000+08:00",
+      "next_run": "2026-08-27T11:40:00+08:00",
+      "last_run": "2026-08-27T11:29:57.783944+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1184,7 +1184,7 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-27T11:30:00+08:00",
+      "next_run": "2026-08-27T11:40:00+08:00",
       "last_run": "2026-08-27T11:20:18.975047+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1218,7 +1218,7 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-08-27T11:30:00+08:00",
+      "next_run": "2026-08-27T11:35:00+08:00",
       "last_run": "2026-08-27T11:25:18.731133+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-08-27T11:30:00+08:00",
+      "next_run": "2026-08-27T11:45:00+08:00",
       "last_run": "2026-08-27T11:15:18.112434+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1320,7 +1320,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1533813403460571158:1533764063551557632",
-      "next_run": "2026-08-27T11:30:00+08:00",
+      "next_run": "2026-08-27T11:45:00+08:00",
       "last_run": "2026-08-27T11:03:29.340242+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1389,7 +1389,7 @@
       "script": "hl_liq_alert.py",
       "no_agent": true,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-08-27T11:30:00+08:00",
+      "next_run": "2026-08-27T11:31:00+08:00",
       "last_run": "2026-08-27T11:29:18.885574+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1412,7 +1412,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 91
+        "completed": 92
       },
       "model": null,
       "provider": null,
@@ -1421,8 +1421,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-08-27T11:30:00+08:00",
-      "last_run": "2026-08-27T11:00:27.183224+08:00",
+      "next_run": "2026-08-27T11:45:00+08:00",
+      "last_run": "2026-08-27T11:30:08.845856+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -3526,7 +3526,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "11:29  up 14 days, 18:28, 2 users, load averages: 1.36 1.36 1.36",
+    "uptime": "11:30  up 14 days, 18:28, 2 users, load averages: 1.44 1.38 1.36",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.20.3 (2026.8.16.2)\nInstall directory: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nRun 'hermes version' for update status."
   },
