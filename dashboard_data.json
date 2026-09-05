@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-06T06:50:15+08:00",
+  "collected_at": "2026-09-06T07:00:17+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101:1491771330536800399",
-      "next_run": "2026-09-06T07:00:00+08:00",
+      "next_run": "2026-09-06T07:20:00+08:00",
       "last_run": "2026-09-06T06:42:58.445939+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 10908
+        "completed": 10909
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227:1491771330536800399",
-      "next_run": "2026-09-06T06:52:00+08:00",
-      "last_run": "2026-09-06T06:39:19.219521+08:00",
+      "next_run": "2026-09-06T07:07:00+08:00",
+      "last_run": "2026-09-06T06:53:56.986541+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 20331
+        "completed": 20333
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-06T06:55:00+08:00",
-      "last_run": "2026-09-06T06:45:23.936349+08:00",
+      "next_run": "2026-09-06T07:05:00+08:00",
+      "last_run": "2026-09-06T06:55:27.867378+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9231
+        "completed": 9232
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-06T07:00:00+08:00",
-      "last_run": "2026-09-06T06:40:18.074196+08:00",
+      "next_run": "2026-09-06T07:10:00+08:00",
+      "last_run": "2026-09-06T06:50:19.446344+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-06T07:00:00+08:00",
+      "next_run": "2026-09-06T07:15:00+08:00",
       "last_run": "2026-09-06T06:46:04.753624+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8910
+        "completed": 8911
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-06T07:00:00+08:00",
-      "last_run": "2026-09-06T06:40:22.088316+08:00",
+      "next_run": "2026-09-06T07:10:00+08:00",
+      "last_run": "2026-09-06T06:50:23.903011+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 8997
+        "completed": 8998
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-06T07:00:00+08:00",
-      "last_run": "2026-09-06T06:40:15.359421+08:00",
+      "next_run": "2026-09-06T07:10:00+08:00",
+      "last_run": "2026-09-06T06:50:16.958774+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 17929
+        "completed": 17931
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-06T06:55:00+08:00",
-      "last_run": "2026-09-06T06:45:15.744270+08:00",
+      "next_run": "2026-09-06T07:05:00+08:00",
+      "last_run": "2026-09-06T06:55:16.813686+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-06T07:00:00+08:00",
+      "next_run": "2026-09-06T07:15:00+08:00",
       "last_run": "2026-09-06T06:45:15.806751+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1311,7 +1311,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3083
+        "completed": 3084
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1320,8 +1320,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1533813403460571158:1533764063551557632",
-      "next_run": "2026-09-06T07:00:00+08:00",
-      "last_run": "2026-09-06T06:41:08.504847+08:00",
+      "next_run": "2026-09-06T07:15:00+08:00",
+      "last_run": "2026-09-06T06:51:19.745921+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1380,7 +1380,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 15316
+        "completed": 15326
       },
       "model": null,
       "provider": null,
@@ -1389,8 +1389,8 @@
       "script": "hl_liq_alert.py",
       "no_agent": true,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-09-06T06:51:00+08:00",
-      "last_run": "2026-09-06T06:49:15.596303+08:00",
+      "next_run": "2026-09-06T07:01:00+08:00",
+      "last_run": "2026-09-06T06:59:17.308284+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1421,7 +1421,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-09-06T07:00:00+08:00",
+      "next_run": "2026-09-06T07:15:00+08:00",
       "last_run": "2026-09-06T06:45:29.256842+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1487,7 +1487,7 @@
       "script": "shadow_soak.sh",
       "no_agent": true,
       "deliver": "discord:1475869285732843540",
-      "next_run": "2026-09-06T07:00:00+08:00",
+      "next_run": "2026-09-06T07:30:00+08:00",
       "last_run": "2026-09-06T06:30:15.037955+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1675,20 +1675,20 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-09-05T22:45:15.556476+00:00",
+    "last_update": "2026-09-05T22:55:18.423696+00:00",
     "portfolio": {
-      "value": 4513.54,
+      "value": 4516.3,
       "capital": 4498.99,
       "initial": 5000.0,
-      "pnl": -486.46,
-      "pnl_pct": -9.73,
+      "pnl": -483.7,
+      "pnl_pct": -9.67,
       "open_positions": 2
     },
     "prices": {
-      "BTC": 79741.5,
-      "ETH": 2481.75,
-      "SOL": 103.225,
-      "HYPE": 85.3965
+      "BTC": 79769.5,
+      "ETH": 2480.95,
+      "SOL": 103.365,
+      "HYPE": 85.3745
     },
     "stats": {
       "total_trades": 157,
@@ -1705,32 +1705,32 @@
       "SOL": {
         "direction": "LONG",
         "entry_price": 102.935,
-        "current_price": 103.225,
+        "current_price": 103.365,
         "size": 30.447789565782788,
-        "unrealized_pnl": 8.59,
-        "unrealized_pnl_pct": 0.27,
+        "unrealized_pnl": 12.82,
+        "unrealized_pnl_pct": 0.41,
         "stop_loss": 101.455,
         "take_profit": 105.895,
         "strategy": "stochastic",
         "entry_time": "2026-09-05T16:06:32.082013+00:00",
-        "duration_hours": 6.6,
-        "funding_rate": 0.001166,
-        "unrealized_funding": 0.2436
+        "duration_hours": 6.8,
+        "funding_rate": 0.001249,
+        "unrealized_funding": 0.2678
       },
       "ETH": {
         "direction": "LONG",
         "entry_price": 2478.35,
-        "current_price": 2481.75,
+        "current_price": 2480.95,
         "size": 1.8286022320776665,
-        "unrealized_pnl": 5.96,
-        "unrealized_pnl_pct": 0.13,
+        "unrealized_pnl": 4.49,
+        "unrealized_pnl_pct": 0.1,
         "stop_loss": 2453.5665,
         "take_profit": 2527.917,
         "strategy": "stochastic",
         "entry_time": "2026-09-05T18:15:28.412479+00:00",
-        "duration_hours": 4.5,
+        "duration_hours": 4.7,
         "funding_rate": 0.00125,
-        "unrealized_funding": 0.2551
+        "unrealized_funding": 0.2646
       }
     },
     "closed_trades": [
@@ -2660,18 +2660,19 @@
     },
     "sentiment": {
       "BTC": {
-        "score": 0.61,
-        "confidence": 0.84,
+        "score": 0.51,
+        "confidence": 0.9,
         "sources": [
           "x_scanner",
           "whale_monitor",
+          "news_agent",
           "oi_funding"
         ],
-        "signal_count": 7,
+        "signal_count": 8,
         "convergence": true,
-        "convergence_strength": 2,
+        "convergence_strength": 3,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83d\udcc8 $BTC] @whale_alert (\ud83d\udc4d14 \ud83d\udd044) \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  7,656  | whale_monitor: Orderbook 17% bid (ask-heavy, bearish) | oi_funding: OI -24.0% 1h",
+        "narrative": "\ud83d\udcc9 3-source bearish convergence | x_scanner: \u2022 [\ud83d\udcc8 $BTC] @whale_alert (\ud83d\udc4d14 \ud83d\udd044) \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8 \ud83d\udea8  7,656  | whale_monitor: Orderbook 17% bid (ask-heavy, bearish) | news_agent: **Breaking** \u2022 **Iran claims missile attack on US aircraft c",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2689,20 +2690,21 @@
             "weight": 2.0
           }
         ],
-        "timestamp": "2026-09-05T22:45:15.400452+00:00"
+        "timestamp": "2026-09-05T22:55:18.321740+00:00"
       },
       "ETH": {
-        "score": 0.56,
-        "confidence": 0.5,
+        "score": 0.35,
+        "confidence": 0.84,
         "sources": [
           "x_scanner",
+          "news_agent",
           "oi_funding"
         ],
-        "signal_count": 3,
-        "convergence": false,
-        "convergence_strength": 0,
+        "signal_count": 4,
+        "convergence": true,
+        "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @DylanTeil (\ud83d\udc4d48 \ud83d\udd047) bitcoin maxis call  $ETH  cen | oi_funding: OI -12.0% 1h",
+        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83d\udcc8 $ETH] @DylanTeil (\ud83d\udc4d48 \ud83d\udd047) bitcoin maxis call  $ETH  cen | news_agent: king** \u2022 **Iran claims missile attack on US aircraft carrier | oi_funding: OI -12.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2720,21 +2722,20 @@
             "weight": 1.44
           }
         ],
-        "timestamp": "2026-09-05T22:45:15.400465+00:00"
+        "timestamp": "2026-09-05T22:55:18.321762+00:00"
       },
       "SOL": {
-        "score": 0.29,
-        "confidence": 0.7,
+        "score": 0.06,
+        "confidence": 0.5,
         "sources": [
           "x_scanner",
-          "news_agent",
           "oi_funding"
         ],
-        "signal_count": 3,
+        "signal_count": 2,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $SOL] @GetSmartTrades (\ud83d\udc4d0 \ud83d\udd040) The Solana trenches are  | news_agent: n any content. Delivering as notable-only:  \ud83d\udfe2 **Notable** \u2014  | oi_funding: OI -29.0% 1h",
+        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83c\udfd7\ufe0f $SOL] @GetSmartTrades (\ud83d\udc4d0 \ud83d\udd040) The Solana trenches are  | oi_funding: OI -29.0% 1h",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2745,14 +2746,9 @@
             "source": "oi_funding",
             "signal": "OI -29.0% 1h",
             "weight": 1.44
-          },
-          {
-            "source": "news_agent",
-            "signal": "n any content. Delivering as notable-only:  \ud83d\udfe2 **Notable** \u2014 06:38 SGT \u2022 **Solana hosts $79M in tokenized stocks, Robinho",
-            "weight": 0.98
           }
         ],
-        "timestamp": "2026-09-05T22:45:15.400474+00:00"
+        "timestamp": "2026-09-05T22:55:18.321774+00:00"
       },
       "HYPE": {
         "score": 0.59,
@@ -2784,7 +2780,7 @@
             "weight": 0.72
           }
         ],
-        "timestamp": "2026-09-05T22:45:15.400482+00:00"
+        "timestamp": "2026-09-05T22:55:18.321785+00:00"
       }
     },
     "ai_history": [
@@ -2860,16 +2856,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 4559.671034964163,
     "equity_curve": [
-      {
-        "t": "2026-09-05T06:55:19.471785+00:00",
-        "v": 4508.86,
-        "p": -9.82
-      },
-      {
-        "t": "2026-09-05T07:00:20.414321+00:00",
-        "v": 4508.44,
-        "p": -9.83
-      },
       {
         "t": "2026-09-05T07:05:21.825357+00:00",
         "v": 4506.27,
@@ -3859,6 +3845,16 @@
         "t": "2026-09-05T22:45:15.556476+00:00",
         "v": 4513.54,
         "p": -9.73
+      },
+      {
+        "t": "2026-09-05T22:50:17.141350+00:00",
+        "v": 4511.14,
+        "p": -9.78
+      },
+      {
+        "t": "2026-09-05T22:55:18.423696+00:00",
+        "v": 4516.3,
+        "p": -9.67
       }
     ]
   },
@@ -3947,7 +3943,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "6:50  up 24 days, 13:48, 2 users, load averages: 1.30 1.52 1.47",
+    "uptime": "7:00  up 24 days, 13:58, 2 users, load averages: 1.30 1.40 1.43",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.20.3 (2026.8.16.2)\nInstall directory: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nRun 'hermes version' for update status."
   },
