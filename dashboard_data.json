@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T16:50:04+08:00",
+  "collected_at": "2026-09-08T17:00:05+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -109,7 +109,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9973
+        "completed": 9974
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -118,8 +118,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101:1491771330536800399",
-      "next_run": "2026-09-08T17:00:00+08:00",
-      "last_run": "2026-09-08T16:26:40.180901+08:00",
+      "next_run": "2026-09-08T17:20:00+08:00",
+      "last_run": "2026-09-08T16:50:19.860773+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 11124
+        "completed": 11125
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -150,8 +150,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782768814723227:1491771330536800399",
-      "next_run": "2026-09-08T16:52:00+08:00",
-      "last_run": "2026-09-08T16:49:31.037038+08:00",
+      "next_run": "2026-09-08T17:07:00+08:00",
+      "last_run": "2026-09-08T16:52:55.334281+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -737,7 +737,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 21027
+        "completed": 21029
       },
       "model": null,
       "provider": null,
@@ -746,8 +746,8 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-08T16:55:00+08:00",
-      "last_run": "2026-09-08T16:45:20.016966+08:00",
+      "next_run": "2026-09-08T17:05:00+08:00",
+      "last_run": "2026-09-08T16:55:24.230417+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9539
+        "completed": 9540
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-08T17:00:00+08:00",
-      "last_run": "2026-09-08T16:46:35.384977+08:00",
+      "next_run": "2026-09-08T17:10:00+08:00",
+      "last_run": "2026-09-08T16:50:09.935410+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1046,7 +1046,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-08T17:00:00+08:00",
+      "next_run": "2026-09-08T17:15:00+08:00",
       "last_run": "2026-09-08T16:47:01.392768+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9218
+        "completed": 9219
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-08T17:00:00+08:00",
-      "last_run": "2026-09-08T16:46:38.776812+08:00",
+      "next_run": "2026-09-08T17:10:00+08:00",
+      "last_run": "2026-09-08T16:50:15.921473+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1175,7 +1175,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9345
+        "completed": 9346
       },
       "model": null,
       "provider": null,
@@ -1184,8 +1184,8 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-08T17:00:00+08:00",
-      "last_run": "2026-09-08T16:40:03.580757+08:00",
+      "next_run": "2026-09-08T17:10:00+08:00",
+      "last_run": "2026-09-08T16:50:08.409071+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -1209,7 +1209,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 18625
+        "completed": 18627
       },
       "model": null,
       "provider": null,
@@ -1218,8 +1218,8 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-08T16:55:00+08:00",
-      "last_run": "2026-09-08T16:45:03.428841+08:00",
+      "next_run": "2026-09-08T17:05:00+08:00",
+      "last_run": "2026-09-08T16:55:04.833645+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1286,7 +1286,7 @@
       "script": "fleet_supervisor_report.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-08T17:00:00+08:00",
+      "next_run": "2026-09-08T17:15:00+08:00",
       "last_run": "2026-09-08T16:45:03.470837+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1311,7 +1311,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 3288
+        "completed": 3289
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1320,8 +1320,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1533813403460571158:1533764063551557632",
-      "next_run": "2026-09-08T17:00:00+08:00",
-      "last_run": "2026-09-08T16:23:31.990907+08:00",
+      "next_run": "2026-09-08T17:15:00+08:00",
+      "last_run": "2026-09-08T16:51:18.098568+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1380,7 +1380,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 18783
+        "completed": 18793
       },
       "model": null,
       "provider": null,
@@ -1389,8 +1389,8 @@
       "script": "hl_liq_alert.py",
       "no_agent": true,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-09-08T16:51:00+08:00",
-      "last_run": "2026-09-08T16:49:03.971345+08:00",
+      "next_run": "2026-09-08T17:01:00+08:00",
+      "last_run": "2026-09-08T16:59:05.453157+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1421,7 +1421,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-09-08T17:00:00+08:00",
+      "next_run": "2026-09-08T17:15:00+08:00",
       "last_run": "2026-09-08T16:46:52.207058+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1487,7 +1487,7 @@
       "script": "shadow_soak.sh",
       "no_agent": true,
       "deliver": "discord:1475869285732843540",
-      "next_run": "2026-09-08T17:00:00+08:00",
+      "next_run": "2026-09-08T17:30:00+08:00",
       "last_run": "2026-09-08T16:30:03.905252+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1739,20 +1739,20 @@
     "model": ""
   },
   "trading": {
-    "last_update": "2026-09-08T08:45:04.367635+00:00",
+    "last_update": "2026-09-08T08:55:06.331875+00:00",
     "portfolio": {
-      "value": 4431.81,
+      "value": 4427.99,
       "capital": 4465.54,
       "initial": 5000.0,
-      "pnl": -568.19,
-      "pnl_pct": -11.36,
+      "pnl": -572.01,
+      "pnl_pct": -11.44,
       "open_positions": 2
     },
     "prices": {
-      "BTC": 78486.5,
-      "ETH": 2480.25,
-      "SOL": 103.035,
-      "HYPE": 84.299
+      "BTC": 78363.0,
+      "ETH": 2477.15,
+      "SOL": 102.935,
+      "HYPE": 84.1385
     },
     "stats": {
       "total_trades": 164,
@@ -1769,32 +1769,32 @@
       "SOL": {
         "direction": "LONG",
         "entry_price": 105.675,
-        "current_price": 103.035,
+        "current_price": 102.935,
         "size": 12.33392483682736,
-        "unrealized_pnl": -32.2,
-        "unrealized_pnl_pct": -2.47,
+        "unrealized_pnl": -33.44,
+        "unrealized_pnl_pct": -2.57,
         "stop_loss": 102.045,
         "take_profit": 112.935,
         "strategy": "stochastic",
         "entry_time": "2026-09-07T03:00:43.889316+00:00",
-        "duration_hours": 29.7,
-        "funding_rate": -0.000954,
-        "unrealized_funding": -0.3605
+        "duration_hours": 29.9,
+        "funding_rate": -0.000945,
+        "unrealized_funding": -0.359
       },
       "ETH": {
         "direction": "LONG",
         "entry_price": 2481.65,
-        "current_price": 2480.25,
+        "current_price": 2477.15,
         "size": 0.8255556807187948,
-        "unrealized_pnl": -1.53,
-        "unrealized_pnl_pct": -0.07,
+        "unrealized_pnl": -4.11,
+        "unrealized_pnl_pct": -0.2,
         "stop_loss": 2427.925,
         "take_profit": 2589.1,
         "strategy": "stochastic",
         "entry_time": "2026-09-07T17:05:20.963691+00:00",
-        "duration_hours": 15.7,
-        "funding_rate": 0.001161,
-        "unrealized_funding": 0.3724
+        "duration_hours": 15.8,
+        "funding_rate": 0.001221,
+        "unrealized_funding": 0.3954
       }
     },
     "closed_trades": [
@@ -2724,48 +2724,42 @@
     },
     "sentiment": {
       "BTC": {
-        "score": -0.11,
-        "confidence": 0.5,
+        "score": -1.0,
+        "confidence": 0.3,
         "sources": [
-          "x_scanner",
-          "whale_monitor"
+          "x_scanner"
         ],
-        "signal_count": 2,
+        "signal_count": 1,
         "convergence": false,
         "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\u26a0\ufe0f $BTC] @0xSweep (\ud83d\udc4d14 \ud83d\udd042) $BTC can't afford to lose $78K | whale_monitor: Orderbook 71% bid-weighted (bullish)",
+        "contradictions": 0,
+        "narrative": "Single-source signal (x_scanner) | x_scanner: \u2022 [\u26a0\ufe0f $BTC] @0xSweep (\ud83d\udc4d14 \ud83d\udd042) $BTC can't afford to lose $78K",
         "key_signals": [
           {
             "source": "x_scanner",
             "signal": "\u2022 [\u26a0\ufe0f $BTC] @0xSweep (\ud83d\udc4d14 \ud83d\udd042) $BTC can't afford to lose $78K \u2014 lose it and $75K comes fast; hold and $82K is next [score",
             "weight": 1.04
-          },
-          {
-            "source": "whale_monitor",
-            "signal": "Orderbook 71% bid-weighted (bullish)",
-            "weight": 0.84
           }
         ],
-        "timestamp": "2026-09-08T08:45:04.262307+00:00"
+        "timestamp": "2026-09-08T08:55:06.232756+00:00"
       },
       "ETH": {
-        "score": -0.16,
-        "confidence": 0.5,
+        "score": 1.0,
+        "confidence": 0.74,
         "sources": [
           "x_scanner",
           "oi_funding"
         ],
         "signal_count": 2,
-        "convergence": false,
-        "convergence_strength": 0,
-        "contradictions": 1,
-        "narrative": "\u26a0\ufe0f Mixed signals across sources | x_scanner: \u2022 [\ud83d\udc0b Whale] 4x long opened on 20,000 $ETH \u2014 total holdings $ | oi_funding: OI -5.0% 1h",
+        "convergence": true,
+        "convergence_strength": 2,
+        "contradictions": 0,
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udc0b Whale] 4x long opened on 20,000 $ETH \u2014 total holdings $ | oi_funding: OI +26.0% 1h, funding 0.0012%",
         "key_signals": [
           {
             "source": "oi_funding",
-            "signal": "OI -5.0% 1h",
-            "weight": 0.9
+            "signal": "OI +26.0% 1h, funding 0.0012%",
+            "weight": 1.44
           },
           {
             "source": "x_scanner",
@@ -2773,30 +2767,22 @@
             "weight": 0.65
           }
         ],
-        "timestamp": "2026-09-08T08:45:04.262332+00:00"
+        "timestamp": "2026-09-08T08:55:06.232778+00:00"
       },
       "SOL": {
-        "score": -1.0,
-        "confidence": 0.3,
-        "sources": [
-          "oi_funding"
-        ],
-        "signal_count": 1,
+        "score": 0.0,
+        "confidence": 0.0,
+        "sources": [],
+        "signal_count": 0,
         "convergence": false,
         "convergence_strength": 0,
         "contradictions": 0,
-        "narrative": "Single-source signal (oi_funding) | oi_funding: OI -20.0% 1h",
-        "key_signals": [
-          {
-            "source": "oi_funding",
-            "signal": "OI -20.0% 1h",
-            "weight": 1.44
-          }
-        ],
-        "timestamp": "2026-09-08T08:45:04.262347+00:00"
+        "narrative": "No active signals",
+        "key_signals": [],
+        "timestamp": "2026-09-08T08:55:06.232781+00:00"
       },
       "HYPE": {
-        "score": -0.22,
+        "score": 0.15,
         "confidence": 0.84,
         "sources": [
           "x_scanner",
@@ -2807,7 +2793,7 @@
         "convergence": true,
         "convergence_strength": 2,
         "contradictions": 1,
-        "narrative": "\ud83d\udcc9 2-source bearish convergence | x_scanner: \u2022 [\ud83d\udcc8 $HYPE] @printermodeguy (\ud83d\udc4d0 \ud83d\udd040) $egg thesis: Jeff Yan's  | whale_monitor: Orderbook 14% bid (ask-heavy, bearish) | oi_funding: OI -4.0% 1h",
+        "narrative": "\ud83d\udcc8 2-source bullish convergence | x_scanner: \u2022 [\ud83d\udcc8 $HYPE] @printermodeguy (\ud83d\udc4d0 \ud83d\udd040) $egg thesis: Jeff Yan's  | whale_monitor: Orderbook 23% bid (ask-heavy, bearish) | oi_funding: OI +55.0% 1h, funding 0.0013%",
         "key_signals": [
           {
             "source": "x_scanner",
@@ -2815,8 +2801,8 @@
             "weight": 2.0
           },
           {
-            "source": "whale_monitor",
-            "signal": "Orderbook 14% bid (ask-heavy, bearish)",
+            "source": "oi_funding",
+            "signal": "OI +55.0% 1h, funding 0.0013%",
             "weight": 1.44
           },
           {
@@ -2825,7 +2811,7 @@
             "weight": 1.3
           }
         ],
-        "timestamp": "2026-09-08T08:45:04.262372+00:00"
+        "timestamp": "2026-09-08T08:55:06.232800+00:00"
       }
     },
     "ai_history": [
@@ -2913,16 +2899,6 @@
     "initial_capital": 5000.0,
     "peak_equity": 4559.671034964163,
     "equity_curve": [
-      {
-        "t": "2026-09-07T17:20:13.296698+00:00",
-        "v": 4444.21,
-        "p": -11.12
-      },
-      {
-        "t": "2026-09-07T17:25:14.280060+00:00",
-        "v": 4441.12,
-        "p": -11.18
-      },
       {
         "t": "2026-09-07T17:30:14.174787+00:00",
         "v": 4442.07,
@@ -3912,6 +3888,16 @@
         "t": "2026-09-08T08:45:04.367635+00:00",
         "v": 4431.81,
         "p": -11.36
+      },
+      {
+        "t": "2026-09-08T08:50:08.067975+00:00",
+        "v": 4431.01,
+        "p": -11.38
+      },
+      {
+        "t": "2026-09-08T08:55:06.331875+00:00",
+        "v": 4427.99,
+        "p": -11.44
       }
     ]
   },
@@ -4000,7 +3986,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "16:50  up 26 days, 23:48, 2 users, load averages: 1.57 1.37 1.32",
+    "uptime": "17:00  up 26 days, 23:58, 2 users, load averages: 1.47 1.38 1.34",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.20.3 (2026.8.16.2)\nInstall directory: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nRun 'hermes version' for update status."
   },
