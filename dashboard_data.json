@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-09T23:16:21+08:00",
+  "collected_at": "2026-09-09T23:20:35+08:00",
   "cron": [
     {
       "id": "43ba1d393c5a",
@@ -118,7 +118,7 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1491782766424228101:1491771330536800399",
-      "next_run": "2026-09-09T23:20:00+08:00",
+      "next_run": "2026-09-09T23:40:00+08:00",
       "last_run": "2026-09-09T23:11:32.247944+08:00",
       "last_status": "error",
       "last_delivery_error": null,
@@ -141,7 +141,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 11229
+        "completed": 11230
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -151,7 +151,7 @@
       "no_agent": false,
       "deliver": "discord:1491782768814723227:1491771330536800399",
       "next_run": "2026-09-09T23:22:00+08:00",
-      "last_run": "2026-09-09T22:40:39.766840+08:00",
+      "last_run": "2026-09-09T23:20:11.096925+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -205,7 +205,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 13574
+        "completed": 13576
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -214,8 +214,8 @@
       "script": null,
       "no_agent": false,
       "deliver": "discord:1492357813035602010",
-      "next_run": "2026-09-09T23:18:00+08:00",
-      "last_run": "2026-09-09T22:33:35.768968+08:00",
+      "next_run": "2026-09-09T23:33:00+08:00",
+      "last_run": "2026-09-09T23:18:57.477033+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "",
@@ -746,7 +746,7 @@
       "script": "hl_paper_trader.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-09T23:20:00+08:00",
+      "next_run": "2026-09-09T23:25:00+08:00",
       "last_run": "2026-09-09T23:16:05.812163+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1003,7 +1003,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9690
+        "completed": 9691
       },
       "model": null,
       "provider": null,
@@ -1012,8 +1012,8 @@
       "script": "fleet_dashboard_deployer.py",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-09T23:20:00+08:00",
-      "last_run": "2026-09-09T22:30:31.375210+08:00",
+      "next_run": "2026-09-09T23:30:00+08:00",
+      "last_run": "2026-09-09T23:16:27.956582+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/.hermes/scripts",
@@ -1037,7 +1037,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 6344
+        "completed": 6345
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1047,7 +1047,7 @@
       "no_agent": false,
       "deliver": "discord:1520303679125721118",
       "next_run": "2026-09-09T23:30:00+08:00",
-      "last_run": "2026-09-09T22:31:08.470039+08:00",
+      "last_run": "2026-09-09T23:16:46.304837+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1107,7 +1107,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 9369
+        "completed": 9370
       },
       "model": "glm-5-turbo",
       "provider": "zai",
@@ -1116,8 +1116,8 @@
       "script": "dashboard_autodeploy.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-09T23:20:00+08:00",
-      "last_run": "2026-09-09T22:30:37.833095+08:00",
+      "next_run": "2026-09-09T23:30:00+08:00",
+      "last_run": "2026-09-09T23:16:33.347145+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": "/Users/mojoai/Projects/hl-strategy-lab",
@@ -1184,7 +1184,7 @@
       "script": "build_command_center.sh",
       "no_agent": true,
       "deliver": "local",
-      "next_run": "2026-09-09T23:20:00+08:00",
+      "next_run": "2026-09-09T23:30:00+08:00",
       "last_run": "2026-09-09T23:10:36.961876+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1218,7 +1218,7 @@
       "script": "circuit_breaker_check.sh",
       "no_agent": true,
       "deliver": "discord:1520303679125721118",
-      "next_run": "2026-09-09T23:20:00+08:00",
+      "next_run": "2026-09-09T23:25:00+08:00",
       "last_run": "2026-09-09T23:15:34.735496+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
@@ -1380,7 +1380,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 20602
+        "completed": 20606
       },
       "model": null,
       "provider": null,
@@ -1389,8 +1389,8 @@
       "script": "hl_liq_alert.py",
       "no_agent": true,
       "deliver": "discord:1542014856864075836",
-      "next_run": "2026-09-09T23:16:00+08:00",
-      "last_run": "2026-09-09T23:15:34.755609+08:00",
+      "next_run": "2026-09-09T23:21:00+08:00",
+      "last_run": "2026-09-09T23:19:37.761675+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -1412,7 +1412,7 @@
       },
       "repeat": {
         "times": null,
-        "completed": 1299
+        "completed": 1300
       },
       "model": null,
       "provider": null,
@@ -1422,7 +1422,7 @@
       "no_agent": false,
       "deliver": "discord:1542014856864075836",
       "next_run": "2026-09-09T23:30:00+08:00",
-      "last_run": "2026-09-09T22:30:47.063024+08:00",
+      "last_run": "2026-09-09T23:17:33.364914+08:00",
       "last_status": "ok",
       "last_delivery_error": null,
       "workdir": null,
@@ -3992,7 +3992,7 @@
   },
   "system": {
     "hostname": "mojoais-Mac-mini.local",
-    "uptime": "23:16  up 28 days,  6:14, 2 users, load averages: 1.35 1.29 1.28",
+    "uptime": "23:20  up 28 days,  6:18, 2 users, load averages: 1.17 1.22 1.24",
     "python_version": "3.11.15",
     "hermes_version": "Hermes Agent v0.20.3 (2026.8.16.2)\nInstall directory: /Users/mojoai/.hermes/hermes-agent\nPython: 3.11.15\nOpenAI SDK: 2.24.0\nRun 'hermes version' for update status."
   },
